@@ -16,16 +16,13 @@
 </script>
 <h1 id="pageHead">Projects</h1>
 <div ng-app="projects">
-  <div class="projects finished">
-    <a href="/ApocalypseSim" class="project" progress=100 ng-controller="apoc">
-      Apocalypse Simulator
-      <br>
-      <progress max=100 value="{{prog}}">
-      </progress>
-    </a>
-
-  </div>
-  <div class="projects wip">
+  <a href="/ApocalypseSim" class="project" progress=100 ng-controller="apoc">
+    Apocalypse Simulator
+    <br>
+    <progress max=100 value="{{prog}}">
+    </progress>
+  </a>
+  <br>
   <a href="/multiplayerJS" class="project" progress=50 ng-controller="mpjs">
     Multiplayer JS
       <br>
@@ -39,8 +36,6 @@
       <progress max=100 value="{{prog}}">
       </progress>
     </a>
-
-  </div>
 </div>
 </body>
 </html>
