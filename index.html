@@ -10,7 +10,7 @@
   var app = angular.module('projects', []);
   app.controller("myCtrl", function($scope) {
     for(var i = 0; i < document.getElementsByClassName("project").length; i++){
-        $scope[document.getElementsByClassName("project")[i].getAttribute('ng-model')].prog = document.getElementsByClassName("project")[i].getAttribute("progress");
+        $scope[document.getElementsByClassName("project")[i].getAttribute('ng-model')+"_prog"] = document.getElementsByClassName("project")[i].getAttribute("progress");
     }
   });
 </script>
@@ -19,21 +19,21 @@
   <a href="/ApocalypseSim" class="project" progress=100 ng-model="apoc">
     Apocalypse Simulator
     <br>
-    <progress max=100 value="{{prog}}">
+    <progress max=100 value="{{apoc_prog}}">
     </progress>
   </a>
   <br>
   <a href="/multiplayerJS" class="project" progress=50 ng-model="mpjs">
     Multiplayer JS
       <br>
-      <progress max=100 value="{{prog}}">
+      <progress max=100 value="{{mpjs_prog}}">
       </progress>
     </a>
   <br>
   <a href="/Whim" class="project" progress=90 ng-model="whim">
     Whim
       <br>
-      <progress max=100 value="{{prog}}">
+      <progress max=100 value="{{whim_prog}}">
       </progress>
     </a>
 </div>
