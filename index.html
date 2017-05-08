@@ -7,15 +7,22 @@
 </head>
 <body>
 <h1 id="pageHead">Projects</h1>
-<div class="projects finished">
-<a href="/ApocalypseSim" class="project" progress=100>Apocalypse Simulator</a>
+<div>
+  <div class="projects finished">
+    <a href="/ApocalypseSim" class="project" progress=100>Apocalypse Simulator
+      <br>
+      <progress max=100>
+      </progress>
+      <input type="text" value={{this.parent}}/>
+    </a>
 
-</div>
-<div class="projects wip">
-<a href="/multiplayerJS" class="project" progress=50>Multiplayer JS</a>
-<br>
-<a href="/Whim" class="project" progress=90>Whim</a>
+  </div>
+  <div class="projects wip">
+  <a href="/multiplayerJS" class="project" progress=50>Multiplayer JS</a>
+  <br>
+  <a href="/Whim" class="project" progress=90>Whim</a>
 
+  </div>
 </div>
 </body>
 </html>
