@@ -9,6 +9,7 @@
 <script type="text/javascript">
   var app = angular.module('projects', []);
   app.controller("myCtrl", function($scope) {
+    $scope.cur_img = "blank";
     for(var i = 0; i < document.getElementsByClassName("project").length; i++){
         $scope[document.getElementsByClassName("project")[i].getAttribute('ng-model')+"_prog"] = document.getElementsByClassName("project")[i].getAttribute("progress");
     }
@@ -16,26 +17,27 @@
 </script>
 <h1 id="pageHead">Projects</h1>
 <div ng-app="projects" ng-controller="myCtrl">
-  <a href="/ApocalypseSim" class="project" progress=100 ng-model="apoc">
+  <a href="/ApocalypseSim" class="project" progress=100 ng-model="apoc" ng-mouseover="cur_img = 'apoc'">
     Apocalypse Simulator
     <br>
     <progress max=100 value="{{apoc_prog}}">
     </progress>
   </a>
   <br>
-  <a href="/multiplayerJS" class="project" progress=50 ng-model="mpjs">
+  <a href="/multiplayerJS" class="project" progress=50 ng-model="mpjs" ng-mouseover="cur_img = 'mpjs'">
     Multiplayer JS
       <br>
       <progress max=100 value="{{mpjs_prog}}">
       </progress>
     </a>
   <br>
-  <a href="/Whim" class="project" progress=90 ng-model="whim">
+  <a href="/Whim" class="project" progress=90 ng-model="whim" ng-mouseover="cur_img = 'whim'">
     Whim
       <br>
       <progress max=100 value="{{whim_prog}}">
       </progress>
     </a>
+  <image src="{{'/images/' + cur_img + '.png'}}"></image>
 </div>
 </body>
 </html>
