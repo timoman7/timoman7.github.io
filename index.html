@@ -8,29 +8,29 @@
 <body>
 <script type="text/javascript">
   var app = angular.module('projects', []);
-  for(var i = 0; i < document.getElementsByClassName("project").length; i++){
-    app.controller(document.getElementsByClassName("project")[i].getAttribute("ng-controller"), function($scope) {
-        $scope.prog = document.getElementsByClassName("project")[i].getAttribute("progress");
-    });
-  }
+  app.controller("myCtrl", function($scope) {
+    for(var i = 0; i < document.getElementsByClassName("project").length; i++){
+        $scope[document.getElementsByClassName("project")[i].getAttribute('ng-model')].prog = document.getElementsByClassName("project")[i].getAttribute("progress");
+    }
+  });
 </script>
 <h1 id="pageHead">Projects</h1>
-<div ng-app="projects">
-  <a href="/ApocalypseSim" class="project" progress=100 ng-controller="apoc">
+<div ng-app="projects" ng-controller="myCtrl">
+  <a href="/ApocalypseSim" class="project" progress=100 ng-model="apoc">
     Apocalypse Simulator
     <br>
     <progress max=100 value="{{prog}}">
     </progress>
   </a>
   <br>
-  <a href="/multiplayerJS" class="project" progress=50 ng-controller="mpjs">
+  <a href="/multiplayerJS" class="project" progress=50 ng-model="mpjs">
     Multiplayer JS
       <br>
       <progress max=100 value="{{prog}}">
       </progress>
     </a>
   <br>
-  <a href="/Whim" class="project" progress=90 ng-controller="whim">
+  <a href="/Whim" class="project" progress=90 ng-model="whim">
     Whim
       <br>
       <progress max=100 value="{{prog}}">
