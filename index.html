@@ -6,21 +6,39 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 </head>
 <body>
+<script type="text/javascript">
+  var app = angular.module('projects', []);
+  for(var i = 0; i < document.getElementsByClassName("project").length; i++){
+    app.controller(document.getElementsByClassName("project")[i].getAttribute("ng-controller"), function($scope) {
+        $scope.prog = document.getElementsByClassName("project")[i].getAttribute("progress");
+    });
+  }
+</script>
 <h1 id="pageHead">Projects</h1>
-<div>
+<div ng-app="projects">
   <div class="projects finished">
-    <a href="/ApocalypseSim" class="project" progress=100>Apocalypse Simulator
+    <a href="/ApocalypseSim" class="project" progress=100 ng-controller="apoc">
+      Apocalypse Simulator
       <br>
-      <progress max=100>
+      <progress max=100 value="{{prog}}">
       </progress>
-      <p>{{this.parent}}</p>
     </a>
 
   </div>
   <div class="projects wip">
-  <a href="/multiplayerJS" class="project" progress=50>Multiplayer JS</a>
+  <a href="/multiplayerJS" class="project" progress=50 ng-controller="mpjs">
+    Multiplayer JS
+      <br>
+      <progress max=100 value="{{prog}}">
+      </progress>
+    </a>
   <br>
-  <a href="/Whim" class="project" progress=90>Whim</a>
+  <a href="/Whim" class="project" progress=90 ng-controller="whim">
+    Whim
+      <br>
+      <progress max=100 value="{{prog}}">
+      </progress>
+    </a>
 
   </div>
 </div>
