@@ -18,9 +18,9 @@
   top: 40px;
   position: absolute;
 }
-.project .finished{
+.project.finished{
   background-color: rgba(100,200,180,180);
 }
-.project .wip{
+.project.wip{
   background-color: rgba(200,100,120,180);
 }
