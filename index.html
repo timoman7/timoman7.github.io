@@ -25,9 +25,9 @@
 </script>
 <h1 id="pageHead">Projects</h1>
 <div ng-app="projects" ng-controller="myCtrl">
-  <button class="btn" data-toggle="collapse" data-target=".projects .finished">Finished Projects</button>
+  <button class="btn" data-toggle="collapse" data-target="#finished">Finished Projects</button>
   <br>
-  <div class="projects finished collapse">
+  <div id = "finished" class="projects finished collapse">
     <div class="project finished">
       <a href="/ApocalypseSim" progress=100 ng-model="apoc" ng-mouseover="cur_img = 'apoc'">Apocalypse Simulator</a>
       <br>
@@ -35,8 +35,8 @@
     </div>
   </div>
   <br>
-  <button class="btn" data-toggle="collapse" data-target=".projects .wip">WIP Projects</button>
-  <div class="projects wip collapse">
+  <button class="btn" data-toggle="collapse" data-target="#wip">WIP Projects</button>
+  <div id = "wip" class="projects wip collapse">
     <div class="project wip">
       <a href="/multiplayerJS" progress=50 ng-model="mpjs" ng-mouseover="cur_img = 'mpjs'">Multiplayer JS</a>
       <br>
