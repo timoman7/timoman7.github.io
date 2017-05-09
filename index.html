@@ -40,8 +40,9 @@
     </div>
   </nav>
   <div ng-app="projects" ng-controller="myCtrl">
-    <h1 id="pageHead">Projects</h1>
     <div class="project-list">
+      <h1 id="pageHead">Projects</h1>
+      <br>
       <div ng-mouseleave="cur_img = 'blank'">
         <button class="btn" data-toggle="collapse" data-target="#finished">Finished Projects <span class="badge">{{finished_proj}}</span></button>
         <br>
