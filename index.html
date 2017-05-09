@@ -21,7 +21,7 @@
       $scope.finished_proj = document.getElementsByClassName('project finished').length;
       $scope.wip_proj = document.getElementsByClassName('project wip').length;
       for(var i = 0; i < document.getElementsByClassName("_project").length; i++){
-          $scope[document.getElementsByClassName("_project")[i].getAttribute('ng-model')+"_prog"] = document.getElementsByClassName("_project")[i].getAttribute("progress");
+          $scope[document.getElementsByClassName("_project")[i].getAttribute('ng-model')+"_prog"] = parseInt(document.getElementsByClassName("_project")[i].getAttribute("progress"));
       }
     });
   </script>
