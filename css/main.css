@@ -19,10 +19,10 @@
   position: absolute;
 }
 .project.finished{
-//  background-color: rgba(100,200,180,180);
+  background-color: rgba(100,230,150,180);
   border-radius: 5px;
 }
 .project.wip{
-//  background-color: rgba(200,100,120,180);
+  background-color: rgba(230,100,100,180);
   border-radius: 5px;
 }
