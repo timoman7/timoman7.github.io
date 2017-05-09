@@ -27,31 +27,33 @@
 </script>
 <h1 id="pageHead">Projects</h1>
 <div ng-app="projects" ng-controller="myCtrl">
-  <button class="btn" data-toggle="collapse" data-target="#finished">Finished Projects <span class="badge">{{finished_proj}}</span></button>
-  <br>
-  <div id = "finished" class="projects finished collapse">
-    <div class="project finished">
-      <a href="/ApocalypseSim" class="_project" progress=100 ng-model="apoc" ng-mouseover="cur_img = 'apoc'">Apocalypse Simulator</a>
-      <br>
-      <progress max=100 value="{{apoc_prog}}"></progress>
-    </div>
-  </div>
-  <br>
-  <button class="btn" data-toggle="collapse" data-target="#wip">WIP Projects <span class="badge">{{wip_proj}}</span></button>
-  <div id = "wip" class="projects wip collapse">
-    <div class="project wip">
-      <a href="/multiplayerJS" class="_project" progress=50 ng-model="mpjs" ng-mouseover="cur_img = 'mpjs'">Multiplayer JS</a>
-      <br>
-      <progress max=100 value="{{mpjs_prog}}"></progress>
+  <div ng-mouseleave="cur_img = 'blank'">
+    <button class="btn" data-toggle="collapse" data-target="#finished">Finished Projects <span class="badge">{{finished_proj}}</span></button>
+    <br>
+    <div id = "finished" class="projects finished collapse">
+      <div class="project finished">
+        <a href="/ApocalypseSim" class="_project" progress=100 ng-model="apoc" ng-mouseover="cur_img = 'apoc'">Apocalypse Simulator</a>
+        <br>
+        <progress max=100 value="{{apoc_prog}}"></progress>
+      </div>
     </div>
     <br>
-    <div class="project wip">
-      <a href="/Whim" class="_project" progress=90 ng-model="whim" ng-mouseover="cur_img = 'whim'">Whim</a>
+    <button class="btn" data-toggle="collapse" data-target="#wip">WIP Projects <span class="badge">{{wip_proj}}</span></button>
+    <div id = "wip" class="projects wip collapse">
+      <div class="project wip">
+        <a href="/multiplayerJS" class="_project" progress=50 ng-model="mpjs" ng-mouseover="cur_img = 'mpjs'">Multiplayer JS</a>
+        <br>
+        <progress max=100 value="{{mpjs_prog}}"></progress>
+      </div>
       <br>
-      <progress max=100 value="{{whim_prog}}"></progress>
+      <div class="project wip">
+        <a href="/Whim" class="_project" progress=90 ng-model="whim" ng-mouseover="cur_img = 'whim'">Whim</a>
+        <br>
+        <progress max=100 value="{{whim_prog}}"></progress>
+      </div>
     </div>
+    <br>
   </div>
-  <br>
   <div style = "right: 0px; top: 0px; z-index: 2; position: fixed; width: 50%; height: auto;">
     <image style = "max-width: 100%; height: auto" src="{{'/images/' + cur_img + '.png'}}" alt="blank.png"></image>
   </div>
