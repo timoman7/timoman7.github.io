@@ -3,7 +3,7 @@
 }
 .project-preview-container{
   right: 0px;
-  margin: 20% auto;
+  top: 40px;
   display: block;
   z-index: 2;
   position: fixed;
