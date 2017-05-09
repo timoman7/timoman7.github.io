@@ -4,6 +4,7 @@
 <title>Timoman7 | Home</title>
 <script src="jquery-3.2.1.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<link rel='stylesheet' href='css/main.css'>
 </head>
 <body>
 <script type="text/javascript">
@@ -17,12 +18,11 @@
 </script>
 <h1 id="pageHead">Projects</h1>
 <div ng-app="projects" ng-controller="myCtrl">
-  
-  <a href="/ApocalypseSim" class="project" progress=100 ng-model="apoc" ng-mouseover="cur_img = 'apoc'">Apocalypse Simulator</a>
+  <a href="/ApocalypseSim" class="project finished" progress=100 ng-model="apoc" ng-mouseover="cur_img = 'apoc'">Apocalypse Simulator</a>
   <br>
   <progress max=100 value="{{apoc_prog}}"></progress>
   <br>
-  <a href="/multiplayerJS" class="project" progress=50 ng-model="mpjs" ng-mouseover="cur_img = 'mpjs'">Multiplayer JS</a>
+  <a href="/multiplayerJS" class="project " progress=50 ng-model="mpjs" ng-mouseover="cur_img = 'mpjs'">Multiplayer JS</a>
   <br>
   <progress max=100 value="{{mpjs_prog}}"></progress>
   <br>
