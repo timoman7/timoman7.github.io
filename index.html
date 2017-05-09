@@ -14,49 +14,64 @@
 <link rel='stylesheet' href='css/main.css'>
 </head>
 <body>
-<script type="text/javascript">
-  var app = angular.module('projects', []);
-  app.controller("myCtrl", function($scope) {
-    $scope.cur_img = "blank";
-    $scope.finished_proj = document.getElementsByClassName('project finished').length;
-    $scope.wip_proj = document.getElementsByClassName('project wip').length;
-    for(var i = 0; i < document.getElementsByClassName("_project").length; i++){
-        $scope[document.getElementsByClassName("_project")[i].getAttribute('ng-model')+"_prog"] = document.getElementsByClassName("_project")[i].getAttribute("progress");
-    }
-  });
-</script>
-<h1 id="pageHead">Projects</h1>
-<div ng-app="projects" ng-controller="myCtrl">
-  <div ng-mouseleave="cur_img = 'blank'">
-    <button class="btn" data-toggle="collapse" data-target="#finished">Finished Projects <span class="badge">{{finished_proj}}</span></button>
-    <br>
-    <div id = "finished" class="projects finished collapse">
-      <div class="project finished">
-        <a href="/ApocalypseSim" class="_project" progress=100 ng-model="apoc" ng-mouseover="cur_img = 'apoc'">Apocalypse Simulator</a>
+  <script type="text/javascript">
+    var app = angular.module('projects', []);
+    app.controller("myCtrl", function($scope) {
+      $scope.cur_img = "blank";
+      $scope.finished_proj = document.getElementsByClassName('project finished').length;
+      $scope.wip_proj = document.getElementsByClassName('project wip').length;
+      for(var i = 0; i < document.getElementsByClassName("_project").length; i++){
+          $scope[document.getElementsByClassName("_project")[i].getAttribute('ng-model')+"_prog"] = document.getElementsByClassName("_project")[i].getAttribute("progress");
+      }
+    });
+  </script>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Bane's Hub</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="/about/index.html">About</a></li>
+        <li><a href="/info/index.html">Info</a></li>
+        <li><a href="/social/index.html">Social</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div>
+    <h1 id="pageHead">Projects</h1>
+    <div ng-app="projects" ng-controller="myCtrl">
+      <div ng-mouseleave="cur_img = 'blank'">
+        <button class="btn" data-toggle="collapse" data-target="#finished">Finished Projects <span class="badge">{{finished_proj}}</span></button>
         <br>
-        <progress max=100 value="{{apoc_prog}}"></progress>
+        <div id = "finished" class="projects finished collapse">
+          <div class="project finished">
+            <a href="/ApocalypseSim" class="_project" progress=100 ng-model="apoc" ng-mouseover="cur_img = 'apoc'">Apocalypse Simulator</a>
+            <br>
+            <progress max=100 value="{{apoc_prog}}"></progress>
+          </div>
+        </div>
+        <br>
+        <button class="btn" data-toggle="collapse" data-target="#wip">WIP Projects <span class="badge">{{wip_proj}}</span></button>
+        <div id = "wip" class="projects wip collapse">
+          <div class="project wip">
+            <a href="/multiplayerJS" class="_project" progress=50 ng-model="mpjs" ng-mouseover="cur_img = 'mpjs'">Multiplayer JS</a>
+            <br>
+            <progress max=100 value="{{mpjs_prog}}"></progress>
+          </div>
+          <br>
+          <div class="project wip">
+            <a href="/Whim" class="_project" progress=90 ng-model="whim" ng-mouseover="cur_img = 'whim'">Whim</a>
+            <br>
+            <progress max=100 value="{{whim_prog}}"></progress>
+          </div>
+        </div>
+        <br>
+      </div>
+      <div style = "right: 0px; top: 0px; z-index: 2; position: fixed; width: 50%; height: auto;">
+        <image style = "max-width: 100%; height: auto" src="{{'/images/' + cur_img + '.png'}}" alt="blank.png"></image>
       </div>
     </div>
-    <br>
-    <button class="btn" data-toggle="collapse" data-target="#wip">WIP Projects <span class="badge">{{wip_proj}}</span></button>
-    <div id = "wip" class="projects wip collapse">
-      <div class="project wip">
-        <a href="/multiplayerJS" class="_project" progress=50 ng-model="mpjs" ng-mouseover="cur_img = 'mpjs'">Multiplayer JS</a>
-        <br>
-        <progress max=100 value="{{mpjs_prog}}"></progress>
-      </div>
-      <br>
-      <div class="project wip">
-        <a href="/Whim" class="_project" progress=90 ng-model="whim" ng-mouseover="cur_img = 'whim'">Whim</a>
-        <br>
-        <progress max=100 value="{{whim_prog}}"></progress>
-      </div>
-    </div>
-    <br>
   </div>
-  <div style = "right: 0px; top: 0px; z-index: 2; position: fixed; width: 50%; height: auto;">
-    <image style = "max-width: 100%; height: auto" src="{{'/images/' + cur_img + '.png'}}" alt="blank.png"></image>
-  </div>
-</div>
 </body>
 </html>
