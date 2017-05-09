@@ -17,6 +17,7 @@
   <script type="text/javascript">
     var app = angular.module('projects', []);
     app.controller("myCtrl", function($scope) {
+      $scope.opac = 180;
       $scope.cur_img = "blank";
       $scope.finished_proj = document.getElementsByClassName('project finished').length;
       $scope.wip_proj = document.getElementsByClassName('project wip').length;
@@ -45,7 +46,7 @@
         <button class="btn" data-toggle="collapse" data-target="#finished">Finished Projects <span class="badge">{{finished_proj}}</span></button>
         <br>
         <div id = "finished" class="projects finished collapse">
-          <div class="project finished" style="background-color: rgba({{200 - apoc_prog}}, {{120 + apoc_prog}}, {{80 + apoc_prog}});">
+          <div class="project finished" style="background-color: rgba({{200 - apoc_prog}}, {{120 + apoc_prog}}, {{80 + apoc_prog}}, {{opac}});">
             <a href="/ApocalypseSim" class="_project" progress=100 ng-model="apoc" ng-mouseover="cur_img = 'apoc'">Apocalypse Simulator</a>
             <br>
             <progress max=100 value="{{apoc_prog}}"></progress>
@@ -54,13 +55,13 @@
         <br>
         <button class="btn" data-toggle="collapse" data-target="#wip">WIP Projects <span class="badge">{{wip_proj}}</span></button>
         <div id = "wip" class="projects wip collapse">
-          <div class="project wip" style="background-color: rgba({{120 + mpjs_prog}}, {{200 - mpjs_prog}}, {{220 - mpjs_prog}});">
+          <div class="project wip" style="background-color: rgba({{120 + mpjs_prog}}, {{200 - mpjs_prog}}, {{220 - mpjs_prog}}, {{opac}});">
             <a href="/multiplayerJS" class="_project" progress=50 ng-model="mpjs" ng-mouseover="cur_img = 'mpjs'">Multiplayer JS</a>
             <br>
             <progress max=100 value="{{mpjs_prog}}"></progress>
           </div>
           <br>
-          <div class="project wip" style="background-color: rgba({{120 + whim_prog}}, {{200 - whim_prog}}, {{220 - whim_prog}});">
+          <div class="project wip" style="background-color: rgba({{120 + whim_prog}}, {{200 - whim_prog}}, {{220 - whim_prog}}, {{opac}});">
             <a href="/Whim" class="_project" progress=90 ng-model="whim" ng-mouseover="cur_img = 'whim'">Whim</a>
             <br>
             <progress max=100 value="{{whim_prog}}"></progress>
