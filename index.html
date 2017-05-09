@@ -39,9 +39,9 @@
       </ul>
     </div>
   </nav>
-  <div class="project-list">
+  <div ng-app="projects" ng-controller="myCtrl">
     <h1 id="pageHead">Projects</h1>
-    <div ng-app="projects" ng-controller="myCtrl">
+    <div class="project-list">
       <div ng-mouseleave="cur_img = 'blank'">
         <button class="btn" data-toggle="collapse" data-target="#finished">Finished Projects <span class="badge">{{finished_proj}}</span></button>
         <br>
@@ -74,8 +74,8 @@
         <image class = "project-preview" src="{{'/images/' + cur_img + '.png'}}" alt="blank.png"></image>
       </div>
       -->
-      <image class = "project-preview-test" src="{{'/images/' + cur_img + '.png'}}" alt="blank.png"></image>
     </div>
+    <image class = "project-preview-test" src="{{'/images/' + cur_img + '.png'}}" alt="blank.png"></image>
   </div>
 </body>
 </html>
