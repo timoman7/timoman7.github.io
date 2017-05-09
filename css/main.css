@@ -1,6 +1,19 @@
 #pageHead{
   
 }
+.project-preview-container{
+  right: 0px;
+  margin:auto;
+  top: 50%;
+  z-index: 2;
+  position: fixed;
+  width: 50%;
+  height: auto;
+}
+.project-preview{
+  max-width: 100%;
+  height: auto;
+}
 .project .finished{
   
 }
