@@ -3,7 +3,14 @@
 <head>
 <title>Timoman7 | Home</title>
 <script src="jquery-3.2.1.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script><!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <link rel='stylesheet' href='css/main.css'>
 </head>
 <body>
@@ -18,17 +25,30 @@
 </script>
 <h1 id="pageHead">Projects</h1>
 <div ng-app="projects" ng-controller="myCtrl">
-  <a href="/ApocalypseSim" class="project finished" progress=100 ng-model="apoc" ng-mouseover="cur_img = 'apoc'">Apocalypse Simulator</a>
+  <button class="btn" data-toggle="collapse" data-target=".projects .finished">Finished Projects</button>
   <br>
-  <progress max=100 value="{{apoc_prog}}"></progress>
+  <div class="projects finished collapse">
+    <div class="project finished">
+      <a href="/ApocalypseSim" progress=100 ng-model="apoc" ng-mouseover="cur_img = 'apoc'">Apocalypse Simulator</a>
+      <br>
+      <progress max=100 value="{{apoc_prog}}"></progress>
+    </div>
+  </div>
   <br>
-  <a href="/multiplayerJS" class="project " progress=50 ng-model="mpjs" ng-mouseover="cur_img = 'mpjs'">Multiplayer JS</a>
-  <br>
-  <progress max=100 value="{{mpjs_prog}}"></progress>
-  <br>
-  <a href="/Whim" class="project" progress=90 ng-model="whim" ng-mouseover="cur_img = 'whim'">Whim</a>
-  <br>
-  <progress max=100 value="{{whim_prog}}"></progress>
+  <button class="btn" data-toggle="collapse" data-target=".projects .wip">WIP Projects</button>
+  <div class="projects wip collapse">
+    <div class="project wip">
+      <a href="/multiplayerJS" progress=50 ng-model="mpjs" ng-mouseover="cur_img = 'mpjs'">Multiplayer JS</a>
+      <br>
+      <progress max=100 value="{{mpjs_prog}}"></progress>
+    </div>
+    <br>
+    <div class="project wip">
+      <a href="/Whim" class="project" progress=90 ng-model="whim" ng-mouseover="cur_img = 'whim'">Whim</a>
+      <br>
+      <progress max=100 value="{{whim_prog}}"></progress>
+    </div>
+  </div>
   <br>
   <div style = "right: 0px; top: 0px; z-index: 2; position: fixed; width: 50%; height: auto;">
     <image style = "max-width: 100%; height: auto" src="{{'/images/' + cur_img + '.png'}}"></image>
