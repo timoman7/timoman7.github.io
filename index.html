@@ -18,8 +18,8 @@
   var app = angular.module('projects', []);
   app.controller("myCtrl", function($scope) {
     $scope.cur_img = "blank";
-    for(var i = 0; i < document.getElementsByClassName("project").length; i++){
-        $scope[document.getElementsByClassName("project")[i].getAttribute('ng-model')+"_prog"] = document.getElementsByClassName("project")[i].getAttribute("progress");
+    for(var i = 0; i < document.getElementsByClassName("_project").length; i++){
+        $scope[document.getElementsByClassName("_project")[i].getAttribute('ng-model')+"_prog"] = document.getElementsByClassName("_project")[i].getAttribute("progress");
     }
   });
 </script>
@@ -29,7 +29,7 @@
   <br>
   <div id = "finished" class="projects finished collapse">
     <div class="project finished">
-      <a href="/ApocalypseSim" progress=100 ng-model="apoc" ng-mouseover="cur_img = 'apoc'">Apocalypse Simulator</a>
+      <a href="/ApocalypseSim" class="_project" progress=100 ng-model="apoc" ng-mouseover="cur_img = 'apoc'">Apocalypse Simulator</a>
       <br>
       <progress max=100 value="{{apoc_prog}}"></progress>
     </div>
@@ -38,13 +38,13 @@
   <button class="btn" data-toggle="collapse" data-target="#wip">WIP Projects</button>
   <div id = "wip" class="projects wip collapse">
     <div class="project wip">
-      <a href="/multiplayerJS" progress=50 ng-model="mpjs" ng-mouseover="cur_img = 'mpjs'">Multiplayer JS</a>
+      <a href="/multiplayerJS" class="_project" progress=50 ng-model="mpjs" ng-mouseover="cur_img = 'mpjs'">Multiplayer JS</a>
       <br>
       <progress max=100 value="{{mpjs_prog}}"></progress>
     </div>
     <br>
     <div class="project wip">
-      <a href="/Whim" class="project" progress=90 ng-model="whim" ng-mouseover="cur_img = 'whim'">Whim</a>
+      <a href="/Whim" class="_project" progress=90 ng-model="whim" ng-mouseover="cur_img = 'whim'">Whim</a>
       <br>
       <progress max=100 value="{{whim_prog}}"></progress>
     </div>
