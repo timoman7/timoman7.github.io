@@ -18,6 +18,8 @@
   var app = angular.module('projects', []);
   app.controller("myCtrl", function($scope) {
     $scope.cur_img = "blank";
+    $scope.finished_proj = document.getElementsByClassName('project finished').length;
+    $scope.wip_proj = document.getElementsByClassName('project wip').length;
     for(var i = 0; i < document.getElementsByClassName("_project").length; i++){
         $scope[document.getElementsByClassName("_project")[i].getAttribute('ng-model')+"_prog"] = document.getElementsByClassName("_project")[i].getAttribute("progress");
     }
@@ -25,7 +27,7 @@
 </script>
 <h1 id="pageHead">Projects</h1>
 <div ng-app="projects" ng-controller="myCtrl">
-  <button class="btn" data-toggle="collapse" data-target="#finished">Finished Projects <span class="badge">{{document.getElementsByClassName('project finished').length}}</span></button>
+  <button class="btn" data-toggle="collapse" data-target="#finished">Finished Projects <span class="badge">{{finished_proj}}</span></button>
   <br>
   <div id = "finished" class="projects finished collapse">
     <div class="project finished">
@@ -35,7 +37,7 @@
     </div>
   </div>
   <br>
-  <button class="btn" data-toggle="collapse" data-target="#wip">WIP Projects <span class="badge">{{document.getElementsByClassName('project wip').length}}</span></button>
+  <button class="btn" data-toggle="collapse" data-target="#wip">WIP Projects <span class="badge">{{wip_proj}}</span></button>
   <div id = "wip" class="projects wip collapse">
     <div class="project wip">
       <a href="/multiplayerJS" class="_project" progress=50 ng-model="mpjs" ng-mouseover="cur_img = 'mpjs'">Multiplayer JS</a>
