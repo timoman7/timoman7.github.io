@@ -15,7 +15,17 @@
 </head>
 <body>
   <script type="text/javascript">
-    
+    function pageLoad(){
+      var confirmation;
+      var acceptedMemo = localStorage.getItem("AcceptedTerms");
+      if (!acceptedMemo) {
+        confirmation = confirm("By clicking OK, you agree to keep any social activity observed, including media viewed on the site and from following links, seperate from academic situations.");
+        localStorage.setItem("AcceptedTerms",confirmation);
+      }
+      if(!confirmation){
+        $("#home").click();
+      }
+    }
   </script>
   <nav class="navbar navbar-default">
     <div class="container-fluid">
@@ -23,7 +33,7 @@
         <a class="navbar-brand" href="#">Bane's Hub</a>
       </div>
       <ul class="nav navbar-nav">
-        <li><a href="../">Home</a></li>
+        <li><a href="../" id = "home">Home</a></li>
         <li><a href="../about/">About</a></li>
         <li><a href="../info/">Info</a></li>
         <li class="active"><a href="#">Social</a></li>
