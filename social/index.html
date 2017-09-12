@@ -16,11 +16,13 @@
 <body>
   <script type="text/javascript">
     function pageLoad(){
-      var confirmation;
+      var confirmation = false;
       var acceptedMemo = localStorage.getItem("AcceptedTerms");
       if (!acceptedMemo) {
         confirmation = confirm("By clicking OK, you agree to keep any social activity observed, including media viewed on the site and from following links, seperate from academic situations.");
         localStorage.setItem("AcceptedTerms",confirmation);
+      }else{
+        confirmation = localStorage.getItem("AcceptedTerms");
       }
       if(!confirmation){
         $("#home").click();
