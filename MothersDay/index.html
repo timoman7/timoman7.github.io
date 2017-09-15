@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Happy Mothers Day</title>
+    <script src="../jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script><!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='css/main.css'>
+    <script type="text/javascript">
+      var app = angular.module('myApp', []);
+      app.controller("myCtrl", function($scope) {
+
+      });
+    </script>
+  </head>
+  <body ng-app="myApp" ng-controller="myCtrl">
+    <audio autoplay loop>
+      <source src="numberOne.mp3" type="audio/mpeg">
+    </audio>
+    <div class="pageLeft">
+      <h1 class="leftContent">Happy Mothers Day</h1>
+      <br>
+      <h2 class="leftContent">I may not be the best with words.</h2>
+      <br>
+      <h3 class="leftContent">But I think this says it pretty well.</h3>
+      <p class="leftContent">I love ya, mom.</p>
+      <h1 style="margin: 50%;">❤️</h1>
+    </div>
+    <div class="pageRight">
+      <img class = "rightContent" style="height: 100%; width: 100%" src="https://s-media-cache-ak0.pinimg.com/236x/42/be/14/42be14129d576788a5d0f1c3bccbb466.jpg" alt="I love you mom">
+    </div>
+  </body>
+</html>

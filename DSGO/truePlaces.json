@@ -1,0 +1,6464 @@
+[
+  {
+    "address": "566 Washington St",
+    "address_extended": "Ste 4",
+    "category_ids": [
+      138
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Convenience Stores"
+      ]
+    ],
+    "chain_id": "ab4ba0c0-d68a-012e-5619-003048cad9da",
+    "chain_name": "7-Eleven",
+    "country": "us",
+    "email": "naeemi@7-eleven.com",
+    "factual_id": "3054126c-f274-46de-b2b0-0bd7cffecc09",
+    "hours": {
+      "sunday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "saturday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tuesday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "friday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "thursday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "wednesday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "monday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 12:00 AM-11:59 PM",
+    "latitude": 42.049396,
+    "locality": "South Easton",
+    "longitude": -71.08296,
+    "name": "7-Eleven",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-0321",
+    "website": "http://www.7-eleven.com/"
+  },
+  {
+    "address": "41 Robert Dr",
+    "category_ids": [
+      342
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Cafes, Coffee and Tea Houses"
+      ]
+    ],
+    "chain_id": "ab4c54c0-d68a-012e-5619-003048cad9da",
+    "chain_name": "Starbucks",
+    "country": "us",
+    "email": "info@starbucks.com",
+    "factual_id": "0888a76b-520c-4d01-8ba9-0e8ee62d2d25",
+    "hours": {
+      "sunday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "8:00",
+          "21:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "8:00",
+          "21:00"
+        ]
+      ],
+      "friday": [
+        [
+          "8:00",
+          "21:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "8:00",
+          "21:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "8:00",
+          "21:00"
+        ]
+      ],
+      "monday": [
+        [
+          "8:00",
+          "21:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 8:00 AM-9:00 PM; Sun 8:00 AM-8:00 PM",
+    "latitude": 42.027326,
+    "locality": "South Easton",
+    "longitude": -71.143549,
+    "name": "Starbucks",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-0005",
+    "website": "http://www.starbucks.com"
+  },
+  {
+    "address": "99 Eastman St",
+    "address_extended": "# A",
+    "category_ids": [
+      26
+    ],
+    "category_labels": [
+      [
+        "Community and Government",
+        "Education"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "38e7fa11-0b1c-4045-904f-08fea2ee1e79",
+    "hours": {
+      "saturday": [
+        [
+          "9:30",
+          "13:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "15:45",
+          "21:00"
+        ]
+      ],
+      "friday": [
+        [
+          "15:45",
+          "19:30"
+        ]
+      ],
+      "thursday": [
+        [
+          "10:45",
+          "11:45"
+        ],
+        [
+          "13:15",
+          "14:15"
+        ],
+        [
+          "15:45",
+          "21:15"
+        ]
+      ],
+      "wednesday": [
+        [
+          "10:15",
+          "11:15"
+        ],
+        [
+          "15:45",
+          "21:00"
+        ]
+      ],
+      "monday": [
+        [
+          "15:45",
+          "21:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Tue 3:45 PM-9:00 PM; Wed 10:15 AM-11:15 AM, 3:45 PM-9:00 PM; Thu 10:45 AM-11:45 AM, 1:15 PM-2:15 PM, 3:45 PM-9:15 PM; Fri 3:45 PM-7:30 PM; Sat 9:30 AM-1:00 PM",
+    "latitude": 42.025252,
+    "locality": "South Easton",
+    "longitude": -71.155931,
+    "name": "Dance Express",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-6101",
+    "website": "http://www.danceexpresseaston.com"
+  },
+  {
+    "address": "68 Prospect St",
+    "category_ids": [
+      451
+    ],
+    "category_labels": [
+      [
+        "Sports and Recreation",
+        "Golf",
+        "Golf Courses"
+      ]
+    ],
+    "country": "us",
+    "email": "leighbader@johnsoncitygolf.com",
+    "factual_id": "3b817048-e044-460e-8c30-3017a21926a3",
+    "fax": "(508) 238-0537",
+    "hours": {
+      "sunday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "monday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 7:00 AM-7:00 PM",
+    "latitude": 42.021312,
+    "locality": "South Easton",
+    "longitude": -71.09356,
+    "name": "Pine Oaks Golf Course",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-2320",
+    "website": "http://www.pineoaks.com"
+  },
+  {
+    "address": "594 Turnpike St",
+    "address_extended": "Ste 16",
+    "category_ids": [
+      291
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Real Estate"
+      ]
+    ],
+    "country": "us",
+    "email": "fac0263@extraspace.com",
+    "factual_id": "38151e29-8731-4142-b8ff-1247aded3b64",
+    "fax": "(508) 238-3208",
+    "hours": {
+      "saturday": [
+        [
+          "9:00",
+          "17:30"
+        ]
+      ],
+      "tuesday": [
+        [
+          "9:30",
+          "18:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:30",
+          "18:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:30",
+          "18:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:30",
+          "18:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:30",
+          "18:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 9:30 AM-6:00 PM; Sat 9:00 AM-5:30 PM",
+    "latitude": 42.001713,
+    "locality": "South Easton",
+    "longitude": -71.066073,
+    "name": "Extra Space Storage",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-0506",
+    "website": "http://www.extraspace.com/"
+  },
+  {
+    "address": "490 Foundry St",
+    "address_extended": "# B",
+    "category_ids": [
+      6
+    ],
+    "category_labels": [
+      [
+        "Automotive",
+        "Car Parts and Accessories"
+      ]
+    ],
+    "country": "us",
+    "email": "jerry@autotintplus.com",
+    "factual_id": "fbf56beb-9317-4c4a-9c41-5329c33b134f",
+    "hours": {
+      "tuesday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ]
+    },
+    "hours_display": "Tue-Fri 9:00 AM-5:00 PM",
+    "latitude": 42.023471,
+    "locality": "South Easton",
+    "longitude": -71.120411,
+    "name": "Auto Tint Plus",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-1191",
+    "website": "http://www.autotintplus.com"
+  },
+  {
+    "address": "533 Washington St",
+    "category_ids": [
+      23
+    ],
+    "category_labels": [
+      [
+        "Community and Government",
+        "Day Care and Preschools"
+      ]
+    ],
+    "country": "us",
+    "email": "user@kindercare.com",
+    "factual_id": "001239db-248f-45a9-a8a4-8e1de50c9338",
+    "fax": "(508) 238-7542",
+    "hours": {
+      "tuesday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "friday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "monday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 6:30 AM-6:00 PM",
+    "latitude": 42.050515,
+    "locality": "South Easton",
+    "longitude": -71.084826,
+    "name": "KinderCare Learning Center",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-8227",
+    "website": "http://www.kindercare.com/"
+  },
+  {
+    "address": "703 Washington St",
+    "category_ids": [
+      4
+    ],
+    "category_labels": [
+      [
+        "Automotive",
+        "Car Dealers and Leasing"
+      ]
+    ],
+    "chain_id": "e3b59980-cff1-425a-938b-4748683faf22",
+    "chain_name": "Ford Dealer",
+    "country": "us",
+    "email": "admin@baystateford.com",
+    "factual_id": "1d2cc348-95bd-476d-bd1f-6c4ed1c9b6d7",
+    "fax": "(781) 341-1060",
+    "hours": {
+      "sunday": [
+        [
+          "11:00",
+          "17:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "18:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Thu 9:00 AM-8:00 PM; Fri 9:00 AM-6:00 PM; Sat 9:00 AM-5:00 PM; Sun 11:00 AM-5:00 PM",
+    "latitude": 42.040524,
+    "locality": "South Easton",
+    "longitude": -71.077257,
+    "name": "Baystate Ford",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(888) 433-4496",
+    "website": "http://www.baystatefordinc.com/new-inventory/"
+  },
+  {
+    "address": "165 Belmont St",
+    "address_extended": "Ste B",
+    "category_ids": [
+      69
+    ],
+    "category_labels": [
+      [
+        "Healthcare",
+        "Dentists"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "3044f169-35ab-4761-b8ec-ce6d395fc8df",
+    "fax": "(508) 238-1988",
+    "hours": {
+      "tuesday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ],
+      "monday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 7:30 AM-5:00 PM",
+    "latitude": 42.055876,
+    "locality": "South Easton",
+    "longitude": -71.071717,
+    "name": "Easton Pediatric Dentistry",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-0900",
+    "website": "http://eastonpediatricdentistry.com"
+  },
+  {
+    "address": "491 Foundry St",
+    "category_ids": [
+      417
+    ],
+    "category_labels": [
+      [
+        "Transportation",
+        "Gas Stations"
+      ]
+    ],
+    "chain_id": "ab4b6f30-d68a-012e-5619-003048cad9da",
+    "chain_name": "Mobil",
+    "country": "us",
+    "factual_id": "7a633080-1e18-012f-0643-0030487f54d8",
+    "fax": "(508) 238-3211",
+    "hours": {
+      "sunday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "saturday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tuesday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "friday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "thursday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "wednesday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "monday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 12:00 AM-11:59 PM",
+    "latitude": 42.024117,
+    "locality": "Easton",
+    "longitude": -71.120458,
+    "name": "Mobil",
+    "postcode": "02334",
+    "region": "MA",
+    "tel": "(508) 238-7014",
+    "website": "http://www.mobil.com"
+  },
+  {
+    "address": "719 Washington St",
+    "category_ids": [
+      150
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Food and Beverage",
+        "Beer, Wine and Spirits"
+      ]
+    ],
+    "country": "us",
+    "email": "sales@simpsonspring.com",
+    "factual_id": "6bf3e559-812f-4454-8ff4-9a52a2f70ffb",
+    "hours": {
+      "saturday": [
+        [
+          "8:00",
+          "16:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "8:00",
+          "18:00"
+        ]
+      ],
+      "friday": [
+        [
+          "8:00",
+          "18:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "8:00",
+          "18:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "8:00",
+          "18:00"
+        ]
+      ],
+      "monday": [
+        [
+          "8:00",
+          "18:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 8:00 AM-6:00 PM; Sat 8:00 AM-4:00 PM",
+    "latitude": 42.039822,
+    "locality": "South Easton",
+    "longitude": -71.076197,
+    "name": "Simpson Spring Co.",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-4472",
+    "website": "http://www.simpsonspring.com"
+  },
+  {
+    "address": "2 Belmont St",
+    "address_extended": "Ste B",
+    "category_ids": [
+      355
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "Fast Food"
+      ]
+    ],
+    "chain_id": "ab4bee40-d68a-012e-5619-003048cad9da",
+    "chain_name": "Subway",
+    "country": "us",
+    "factual_id": "211bd8db-3dc2-4d9e-9c9f-3c6dba0674f1",
+    "fax": "(304) 346-3468",
+    "hours": {
+      "sunday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "monday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 7:00 AM-9:00 PM",
+    "latitude": 42.050116,
+    "locality": "South Easton",
+    "longitude": -71.083584,
+    "name": "Subway",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-2344",
+    "website": "http://www.subway.com"
+  },
+  {
+    "address": "646 Washington St",
+    "address_extended": "Ste 5",
+    "category_ids": [
+      280
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Personal Care",
+        "Beauty Salons and Barbers"
+      ]
+    ],
+    "country": "us",
+    "email": "salonluka09@gmail.com",
+    "factual_id": "49d9b0a4-2740-4365-b4d8-665ea840cea3",
+    "hours": {
+      "saturday": [
+        [
+          "9:00",
+          "16:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "10:00",
+          "17:00"
+        ]
+      ],
+      "friday": [
+        [
+          "10:00",
+          "20:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "10:00",
+          "20:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "10:00",
+          "20:00"
+        ]
+      ]
+    },
+    "hours_display": "Tue 10:00 AM-5:00 PM; Wed-Fri 10:00 AM-8:00 PM; Sat 9:00 AM-4:00 PM",
+    "latitude": 42.044071,
+    "locality": "South Easton",
+    "longitude": -71.07835,
+    "name": "Salon Luka",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-7077",
+    "website": "http://www.salonluka.com"
+  },
+  {
+    "address": "447 Turnpike St",
+    "address_extended": "Ste 5",
+    "category_ids": [
+      363
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "Pizza"
+      ]
+    ],
+    "country": "us",
+    "email": "news@wjar.com",
+    "factual_id": "bdd522cf-dcd7-4a61-a276-808886104182",
+    "hours": {
+      "sunday": [
+        [
+          "10:00",
+          "23:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "10:00",
+          "23:59"
+        ]
+      ],
+      "tuesday": [
+        [
+          "10:00",
+          "23:00"
+        ]
+      ],
+      "friday": [
+        [
+          "10:00",
+          "23:59"
+        ]
+      ],
+      "thursday": [
+        [
+          "10:00",
+          "23:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "10:00",
+          "23:00"
+        ]
+      ],
+      "monday": [
+        [
+          "10:00",
+          "23:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Thu 10:00 AM-11:00 PM; Fri-Sat 10:00 AM-11:59 PM; Sun 10:00 AM-11:00 PM",
+    "latitude": 42.01258,
+    "locality": "South Easton",
+    "longitude": -71.067139,
+    "name": "Lindos Pizza",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-4332",
+    "website": "http://www.lindospizzaeaston.com/"
+  },
+  {
+    "address": "250 Foundry St",
+    "category_ids": [
+      34
+    ],
+    "category_labels": [
+      [
+        "Community and Government",
+        "Education",
+        "Primary and Secondary Schools"
+      ]
+    ],
+    "country": "us",
+    "email": "mwilcox@sersd.org",
+    "factual_id": "b35536e8-e9a3-45b3-8932-92e43f287f6b",
+    "fax": "(508) 230-8352",
+    "hours": {
+      "tuesday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "friday": [
+        [
+          "8:00",
+          "16:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "monday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Thu 8:00 AM-8:00 PM; Fri 8:00 AM-4:00 PM",
+    "latitude": 42.009722,
+    "locality": "South Easton",
+    "longitude": -71.08189,
+    "name": "Southeastern Technical Institute",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-1200",
+    "website": "http://www.sti-tech.info/"
+  },
+  {
+    "address": "123 Belmont St",
+    "category_ids": [
+      355,
+      340,
+      342
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "Fast Food"
+      ],
+      [
+        "Social",
+        "Food and Dining",
+        "Bakeries"
+      ],
+      [
+        "Social",
+        "Food and Dining",
+        "Cafes, Coffee and Tea Houses"
+      ]
+    ],
+    "country": "us",
+    "email": "news@wjar.com",
+    "factual_id": "2793c745-9e72-4573-bd9a-4dce81b11dfe",
+    "fax": "(508) 238-6224",
+    "hours": {
+      "saturday": [
+        [
+          "8:00",
+          "18:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "friday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "monday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 6:30 AM-6:00 PM; Sat 8:00 AM-6:00 PM",
+    "latitude": 42.053922,
+    "locality": "South Easton",
+    "longitude": -71.074185,
+    "name": "Andrews Farm Bakery & Cyber",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-6677",
+    "website": "http://www.andrewscafe.com"
+  },
+  {
+    "address": "359 WASHINGTON St",
+    "category_ids": [
+      9
+    ],
+    "category_labels": [
+      [
+        "Automotive",
+        "Maintenance and Repair"
+      ]
+    ],
+    "country": "us",
+    "email": "easton-ma@patch.com",
+    "factual_id": "1f38c79f-6f7d-4649-81d9-d442bb0ff7b6",
+    "hours": {
+      "sunday": [
+        [
+          "8:00",
+          "21:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "6:00",
+          "22:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "6:00",
+          "22:00"
+        ]
+      ],
+      "friday": [
+        [
+          "6:00",
+          "22:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "6:00",
+          "22:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "6:00",
+          "22:00"
+        ]
+      ],
+      "monday": [
+        [
+          "6:00",
+          "22:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 6:00 AM-10:00 PM; Sun 8:00 AM-9:00 PM",
+    "latitude": 42.049088,
+    "locality": "South Easton",
+    "longitude": -71.083481,
+    "name": "Easton Auto Service",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-5862",
+    "website": "http://eastonautoservice.com"
+  },
+  {
+    "address": "2 Belmont St",
+    "address_extended": "Ste A",
+    "category_ids": [
+      339
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Bagels and Donuts"
+      ]
+    ],
+    "country": "us",
+    "email": "franchise@honeydewdonuts.com",
+    "factual_id": "3e757d48-e76e-4796-99c6-6eb835071980",
+    "hours": {
+      "sunday": [
+        [
+          "5:00",
+          "20:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "4:30",
+          "21:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "4:30",
+          "21:00"
+        ]
+      ],
+      "friday": [
+        [
+          "4:30",
+          "21:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "4:30",
+          "21:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "4:30",
+          "21:00"
+        ]
+      ],
+      "monday": [
+        [
+          "4:30",
+          "21:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 4:30 AM-9:00 PM; Sun 5:00 AM-8:00 PM",
+    "latitude": 42.049917,
+    "locality": "South Easton",
+    "longitude": -71.08351,
+    "name": "Honey Dew Donuts",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-0277",
+    "website": "http://www.honeydewdonuts.com"
+  },
+  {
+    "address": "25 Robert Dr",
+    "address_extended": "Ste C6B",
+    "category_ids": [
+      281
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Personal Care",
+        "Manicures and Pedicures"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "938b1512-8989-4997-b06b-a8c54e32a5fa",
+    "hours": {
+      "sunday": [
+        [
+          "10:00",
+          "19:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 9:00 AM-8:00 PM; Sun 10:00 AM-7:00 PM",
+    "latitude": 42.024653,
+    "locality": "South Easton",
+    "longitude": -71.141224,
+    "name": "Star Nails & Spa",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-7055",
+    "website": "http://www.starnail.com/"
+  },
+  {
+    "address": "65 Belmont St",
+    "category_ids": [
+      288
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Printing, Copying and Signage"
+      ]
+    ],
+    "country": "us",
+    "email": "southeaston@signsbytomorrow.com",
+    "factual_id": "256dc999-6416-4918-9685-d8bf0ac5d2f9",
+    "hours": {
+      "tuesday": [
+        [
+          "8:30",
+          "17:30"
+        ]
+      ],
+      "friday": [
+        [
+          "8:30",
+          "17:30"
+        ]
+      ],
+      "thursday": [
+        [
+          "8:30",
+          "17:30"
+        ]
+      ],
+      "wednesday": [
+        [
+          "8:30",
+          "17:30"
+        ]
+      ],
+      "monday": [
+        [
+          "8:30",
+          "17:30"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 8:30 AM-5:30 PM",
+    "latitude": 42.051729,
+    "locality": "South Easton",
+    "longitude": -71.078612,
+    "name": "Signs By Tomorrow",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-8901",
+    "website": "http://Signsbytomorrow.com/southeaston"
+  },
+  {
+    "address": "670 Depot St",
+    "address_extended": "Ste 6",
+    "category_ids": [
+      466,
+      159
+    ],
+    "category_labels": [
+      [
+        "Healthcare",
+        "Optometrist"
+      ],
+      [
+        "Retail",
+        "Glasses"
+      ]
+    ],
+    "country": "us",
+    "email": "info@southshoreeye.net",
+    "factual_id": "bcea4388-cdf2-4d24-bde7-43326d90f536",
+    "fax": "(508) 238-8468",
+    "hours": {
+      "saturday": [
+        [
+          "9:00",
+          "15:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "10:00",
+          "19:00"
+        ]
+      ],
+      "friday": [
+        [
+          "10:00",
+          "17:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "10:00",
+          "19:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "10:00",
+          "17:00"
+        ]
+      ],
+      "monday": [
+        [
+          "10:00",
+          "17:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon 10:00 AM-5:00 PM; Tue 10:00 AM-7:00 PM; Wed 10:00 AM-5:00 PM; Thu 10:00 AM-7:00 PM; Fri 10:00 AM-5:00 PM; Sat 9:00 AM-3:00 PM",
+    "latitude": 42.026535,
+    "locality": "Easton",
+    "longitude": -71.116948,
+    "name": "South Shore Eye Associates PC",
+    "po_box": "P.O. Box 1100",
+    "postcode": "02334",
+    "region": "MA",
+    "tel": "(508) 238-8460",
+    "website": "http://www.southshoreeye.net"
+  },
+  {
+    "address": "555 Washington St",
+    "category_ids": [
+      80
+    ],
+    "category_labels": [
+      [
+        "Healthcare",
+        "Pharmacies"
+      ]
+    ],
+    "chain_id": "ab4c24a0-d68a-012e-5619-003048cad9da",
+    "chain_name": "CVS Pharmacy",
+    "country": "us",
+    "factual_id": "393b9692-6e50-4ac7-aaf7-92482ea44c7d",
+    "fax": "(508) 238-4693",
+    "hours": {
+      "sunday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "monday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 7:00 AM-10:00 PM",
+    "latitude": 42.049037,
+    "locality": "South Easton",
+    "longitude": -71.084261,
+    "name": "CVS Pharmacy",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-3476",
+    "website": "http://www.cvs.com"
+  },
+  {
+    "address": "594 Washington St",
+    "address_extended": "Ste 3",
+    "category_ids": [
+      377
+    ],
+    "category_labels": [
+      [
+        "Sports and Recreation",
+        "Combat Sports"
+      ]
+    ],
+    "country": "us",
+    "email": "wendy.magus@educate.com",
+    "factual_id": "33a57429-09f8-4582-97ff-086b6797c08a",
+    "latitude": 42.047153,
+    "locality": "South Easton",
+    "longitude": -71.080399,
+    "name": "Personal Best Karate",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-8333",
+    "website": "http://www.personalbestkarate.com"
+  },
+  {
+    "address": "799 Washington St",
+    "category_ids": [
+      280
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Personal Care",
+        "Beauty Salons and Barbers"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "d429f469-ccf7-4f45-94b8-7d1958697a99",
+    "hours": {
+      "saturday": [
+        [
+          "7:00",
+          "18:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "9:00",
+          "19:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "19:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "19:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Wed 9:00 AM-7:00 PM; Thu-Fri 7:00 AM-7:00 PM; Sat 7:00 AM-6:00 PM",
+    "latitude": 42.034505,
+    "locality": "South Easton",
+    "longitude": -71.073591,
+    "name": "Tony's Barber Shop",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-1597"
+  },
+  {
+    "address": "35 Eastman St",
+    "category_ids": [
+      209
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Computers"
+      ]
+    ],
+    "country": "us",
+    "email": "triton@mt.com",
+    "factual_id": "3fcc133b-3c9e-45d3-9664-d08c29383fb2",
+    "hours": {
+      "sunday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "saturday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tuesday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "friday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "thursday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "wednesday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "monday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 12:00 AM-11:59 PM",
+    "latitude": 42.023747,
+    "locality": "South Easton",
+    "longitude": -71.14507,
+    "name": "Triton Technologies",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-7300",
+    "website": "http://www.tritontechnology.com/"
+  },
+  {
+    "address": "670 Washington St",
+    "category_ids": [
+      148
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Florists"
+      ]
+    ],
+    "country": "us",
+    "email": "especially_yours@verizon.net",
+    "factual_id": "52daa1a6-882e-445a-8e97-79f091166778",
+    "hours": {
+      "saturday": [
+        [
+          "7:30",
+          "15:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "7:30",
+          "16:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ],
+      "monday": [
+        [
+          "7:30",
+          "16:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Tue 7:30 AM-4:00 PM; Wed-Fri 7:30 AM-5:00 PM; Sat 7:30 AM-3:00 PM",
+    "latitude": 42.042708,
+    "locality": "South Easton",
+    "longitude": -71.077641,
+    "name": "Especially Yours Florist Incorporated",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-9858",
+    "website": "http://www.especiallyyoursflorist.com/"
+  },
+  {
+    "address": "665 WASHINGTON St",
+    "category_ids": [
+      171
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Supermarkets and Groceries"
+      ]
+    ],
+    "country": "us",
+    "email": "emcgarry@tedeschifoodshops.com",
+    "factual_id": "ddb35f8f-3838-4336-bcd4-1d6e07e7e03d",
+    "hours": {
+      "sunday": [
+        [
+          "6:00",
+          "23:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "6:00",
+          "23:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "6:00",
+          "23:00"
+        ]
+      ],
+      "friday": [
+        [
+          "6:00",
+          "23:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "6:00",
+          "23:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "6:00",
+          "23:00"
+        ]
+      ],
+      "monday": [
+        [
+          "6:00",
+          "23:00"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 6:00 AM-11:00 PM",
+    "latitude": 42.043006,
+    "locality": "South Easton",
+    "longitude": -71.078183,
+    "name": "Tedeschi Food Shops",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-3217",
+    "website": "http://www.tedeschifoodshops.com"
+  },
+  {
+    "address": "704 Washington St",
+    "category_ids": [
+      51
+    ],
+    "category_labels": [
+      [
+        "Community and Government",
+        "Post Offices"
+      ]
+    ],
+    "chain_id": "30c40284-04fb-4ebb-8406-f3ac956bd976",
+    "chain_name": "US Post Office",
+    "country": "us",
+    "factual_id": "ac68a2ca-b881-4814-9bdf-eac2b5184bfa",
+    "hours": {
+      "saturday": [
+        [
+          "9:00",
+          "12:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 9:00 AM-5:00 PM; Sat 9:00 AM-12:00 PM",
+    "latitude": 42.0407,
+    "locality": "South Easton",
+    "longitude": -71.076381,
+    "name": "US Post Office",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(800) 275-8777",
+    "website": "http://www.usps.com"
+  },
+  {
+    "address": "944 Washington St",
+    "address_extended": "Ste 1",
+    "category_ids": [
+      74
+    ],
+    "category_labels": [
+      [
+        "Healthcare",
+        "Hospitals, Clinics and Medical Centers"
+      ]
+    ],
+    "country": "us",
+    "email": "contactus@doctorsmanagementservice.org",
+    "factual_id": "ba846743-d7d8-4562-87d6-8c6a09a6ff18",
+    "fax": "(508) 230-9772",
+    "hours": {
+      "tuesday": [
+        [
+          "8:00",
+          "16:30"
+        ]
+      ],
+      "friday": [
+        [
+          "8:00",
+          "16:30"
+        ]
+      ],
+      "thursday": [
+        [
+          "8:00",
+          "16:30"
+        ]
+      ],
+      "wednesday": [
+        [
+          "8:00",
+          "16:30"
+        ]
+      ],
+      "monday": [
+        [
+          "8:00",
+          "16:30"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 8:00 AM-4:30 PM",
+    "latitude": 42.025556,
+    "locality": "South Easton",
+    "longitude": -71.067599,
+    "name": "Doctor's Management Service",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-8646",
+    "website": "http://www.doctorsmanagementservice.org"
+  },
+  {
+    "address": "7 Renker Dr",
+    "category_ids": [
+      170
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Sporting Goods"
+      ]
+    ],
+    "country": "us",
+    "email": "zerohourgun@gmail.com",
+    "factual_id": "297c0d6a-7461-42d2-be7a-45c2ba6b4864",
+    "hours": {
+      "saturday": [
+        [
+          "10:00",
+          "17:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "10:00",
+          "19:00"
+        ]
+      ],
+      "friday": [
+        [
+          "10:00",
+          "19:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "10:00",
+          "19:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "10:00",
+          "17:00"
+        ]
+      ]
+    },
+    "hours_display": "Tue 10:00 AM-7:00 PM; Wed 10:00 AM-5:00 PM; Thu-Fri 10:00 AM-7:00 PM; Sat 10:00 AM-5:00 PM",
+    "latitude": 42.046944,
+    "locality": "South Easton",
+    "longitude": -71.069827,
+    "name": "Zero Hours Arms",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 584-0291",
+    "website": "http://www.zerohourarms.com/"
+  },
+  {
+    "address": "566 Washington St",
+    "category_ids": [
+      455
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Technology",
+        "Mobile"
+      ]
+    ],
+    "country": "us",
+    "email": "wz353@wireless-zone.com",
+    "factual_id": "426b62de-43b5-46ae-9054-1f360012fe34",
+    "hours": {
+      "sunday": [
+        [
+          "11:00",
+          "17:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 9:00 AM-8:00 PM; Sun 11:00 AM-5:00 PM",
+    "latitude": 42.049442,
+    "locality": "South Easton",
+    "longitude": -71.082883,
+    "name": "Verizon Authorized Retailer - Wireless Zone",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-7990",
+    "website": "http://www.WirelessZone.com/Easton"
+  },
+  {
+    "address": "25 Robert Dr",
+    "category_ids": [
+      162
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Music, Video and DVD"
+      ]
+    ],
+    "chain_id": "ab4b8c60-d68a-012e-5619-003048cad9da",
+    "chain_name": "Redbox",
+    "country": "us",
+    "factual_id": "86b4dfef-f2c6-49f2-be3f-d2bad0fce175",
+    "hours": {
+      "sunday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "friday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "monday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 8:00 AM-8:00 PM",
+    "latitude": 42.024661,
+    "locality": "South Easton",
+    "longitude": -71.141092,
+    "name": "Redbox",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(866) 733-2693",
+    "website": "http://www.redbox.com/"
+  },
+  {
+    "address": "620 Washington St",
+    "category_ids": [
+      361
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "Mexican"
+      ]
+    ],
+    "country": "us",
+    "email": "easton-ma@patch.com",
+    "factual_id": "34556738-a375-4b5f-afb2-fc7de3e30002",
+    "hours": {
+      "sunday": [
+        [
+          "11:00",
+          "23:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "11:00",
+          "23:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "11:00",
+          "23:00"
+        ]
+      ],
+      "friday": [
+        [
+          "11:00",
+          "23:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "11:00",
+          "23:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "11:00",
+          "23:00"
+        ]
+      ],
+      "monday": [
+        [
+          "11:00",
+          "23:00"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 11:00 AM-11:00 PM",
+    "latitude": 42.045629,
+    "locality": "South Easton",
+    "longitude": -71.079449,
+    "name": "El Mariachi",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-5900",
+    "website": "http://www.elmariachimexicanrestaurant.net/history.html"
+  },
+  {
+    "address": "447 Turnpike St",
+    "address_extended": "Ste 6",
+    "category_ids": [
+      377
+    ],
+    "category_labels": [
+      [
+        "Sports and Recreation",
+        "Combat Sports"
+      ]
+    ],
+    "country": "us",
+    "email": "vince@martialartscentereaston.com",
+    "factual_id": "0dfc6275-9109-443a-8146-dfc3804503f6",
+    "hours": {
+      "saturday": [
+        [
+          "8:30",
+          "14:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "friday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "monday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 10:00 AM-9:00 PM; Sat 8:30 AM-2:00 PM",
+    "latitude": 42.012575,
+    "locality": "South Easton",
+    "longitude": -71.067272,
+    "name": "Martial Arts Center",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-6040",
+    "website": "http://www.MartialArtsCenterEaston.com"
+  },
+  {
+    "address": "956 Washington St",
+    "category_ids": [
+      348,
+      349,
+      312
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "American"
+      ],
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "Barbecue"
+      ],
+      [
+        "Social",
+        "Bars"
+      ]
+    ],
+    "country": "us",
+    "email": "info@tommydoylespub.com",
+    "factual_id": "0cea81be-f109-4907-8a42-df73b486e32f",
+    "hours": {
+      "sunday": [
+        [
+          "00:00",
+          "2:00"
+        ],
+        [
+          "12:00",
+          "23:59"
+        ]
+      ],
+      "saturday": [
+        [
+          "00:00",
+          "2:00"
+        ],
+        [
+          "11:00",
+          "23:59"
+        ]
+      ],
+      "tuesday": [
+        [
+          "00:00",
+          "1:00"
+        ],
+        [
+          "11:00",
+          "23:59"
+        ]
+      ],
+      "friday": [
+        [
+          "00:00",
+          "2:00"
+        ],
+        [
+          "11:00",
+          "23:59"
+        ]
+      ],
+      "thursday": [
+        [
+          "00:00",
+          "1:00"
+        ],
+        [
+          "11:00",
+          "23:59"
+        ]
+      ],
+      "wednesday": [
+        [
+          "00:00",
+          "1:00"
+        ],
+        [
+          "11:00",
+          "23:59"
+        ]
+      ],
+      "monday": [
+        [
+          "00:00",
+          "1:00"
+        ],
+        [
+          "11:00",
+          "23:59"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Thu 12:00 AM-1:00 AM, 11:00 AM-11:59 PM; Fri-Sat 12:00 AM-2:00 AM, 11:00 AM-11:59 PM; Sun 12:00 AM-2:00 AM, 12:00 PM-11:59 PM",
+    "latitude": 42.025176,
+    "locality": "South Easton",
+    "longitude": -71.067257,
+    "name": "Tommy Doyles Pub & Grill",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-9061",
+    "website": "http://tommydoylespub.com"
+  },
+  {
+    "address": "25 Robert Dr",
+    "category_ids": [
+      171
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Supermarkets and Groceries"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "9cb5ca77-6b2f-414a-b423-4d112c051d5b",
+    "hours": {
+      "sunday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "monday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 7:00 AM-10:00 PM; Sun 7:00 AM-9:00 PM",
+    "latitude": 42.024898,
+    "locality": "South Easton",
+    "longitude": -71.141483,
+    "name": "Hannaford",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-6305",
+    "website": "http://www.hannaford.com/"
+  },
+  {
+    "address": "502 Foundry St",
+    "category_ids": [
+      377
+    ],
+    "category_labels": [
+      [
+        "Sports and Recreation",
+        "Combat Sports"
+      ]
+    ],
+    "country": "us",
+    "email": "eastonsda@aol.com",
+    "factual_id": "1e01b1a9-11ed-4b52-9846-0b3c01a2ee55",
+    "hours": {
+      "saturday": [
+        [
+          "8:00",
+          "12:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "16:30",
+          "21:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "16:30",
+          "21:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "16:30",
+          "21:00"
+        ]
+      ],
+      "monday": [
+        [
+          "16:30",
+          "21:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Thu 4:30 PM-9:00 PM; Sat 8:00 AM-12:00 PM",
+    "latitude": 42.023209,
+    "locality": "South Easton",
+    "longitude": -71.121797,
+    "name": "Easton Self Defense Academy",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-8599",
+    "website": "http://www.eastonselfdefense.com"
+  },
+  {
+    "address": "699 DEPOT",
+    "category_ids": [
+      171
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Supermarkets and Groceries"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "97031898-6600-4b79-9827-db7f1c14271f",
+    "hours": {
+      "sunday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "monday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 7:00 AM-10:00 PM; Sun 7:00 AM-9:00 PM",
+    "latitude": 42.025999,
+    "locality": "Easton",
+    "longitude": -71.117904,
+    "name": "Shaw's Supermarkets",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-0165",
+    "website": "http://shaws.com/stores/viewstore?facilityId=7408"
+  },
+  {
+    "address": "12 Robert Dr",
+    "category_ids": [
+      221
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Financial",
+        "Banking and Finance"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "3be86c59-4569-4a7c-bd3a-c7700cf9a9f2",
+    "hours": {
+      "saturday": [
+        [
+          "8:30",
+          "12:30"
+        ]
+      ],
+      "tuesday": [
+        [
+          "8:30",
+          "16:00"
+        ]
+      ],
+      "friday": [
+        [
+          "8:30",
+          "16:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "8:30",
+          "19:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "8:30",
+          "16:00"
+        ]
+      ],
+      "monday": [
+        [
+          "8:30",
+          "16:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Wed 8:30 AM-4:00 PM; Thu 8:30 AM-7:00 PM; Fri 8:30 AM-4:00 PM; Sat 8:30 AM-12:30 PM",
+    "latitude": 42.023921,
+    "locality": "South Easton",
+    "longitude": -71.142747,
+    "name": "Bank Of Easton",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-2092",
+    "website": "http://www.bankofeaston.com"
+  },
+  {
+    "address": "130 Depot St",
+    "category_ids": [
+      23
+    ],
+    "category_labels": [
+      [
+        "Community and Government",
+        "Day Care and Preschools"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "397fd6c7-d104-48a7-8241-b58fec2b1819",
+    "fax": "(508) 565-9903",
+    "hours": {
+      "tuesday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "friday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "monday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 6:30 AM-6:00 PM",
+    "latitude": 42.041339,
+    "locality": "South Easton",
+    "longitude": -71.079859,
+    "name": "Creative World Childrens Learning Center",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 565-9900",
+    "website": "http://www.creativeworldclc.net/about.html"
+  },
+  {
+    "address": "60 Bristol Dr",
+    "category_ids": [
+      230
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Food and Beverage"
+      ]
+    ],
+    "country": "us",
+    "email": "nfo@riscousa.com",
+    "factual_id": "001661b0-8759-4438-b0fc-0d43bdfa66a5",
+    "fax": "(508) 230-5345",
+    "hours": {
+      "tuesday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 9:00 AM-5:00 PM",
+    "latitude": 42.046976,
+    "locality": "South Easton",
+    "longitude": -71.072857,
+    "name": "Risco USA",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-3336",
+    "website": "http://www.riscousa.com/"
+  },
+  {
+    "address": "454 Turnpike St",
+    "category_ids": [
+      358,
+      348,
+      362
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "Italian"
+      ],
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "American"
+      ],
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "Middle Eastern"
+      ]
+    ],
+    "country": "us",
+    "email": "info@porticello.com",
+    "factual_id": "295cc91c-a126-433a-a41a-176d6b1b5141",
+    "hours": {
+      "sunday": [
+        [
+          "16:00",
+          "21:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "17:00",
+          "23:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "17:00",
+          "22:00"
+        ]
+      ],
+      "friday": [
+        [
+          "17:00",
+          "23:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "17:00",
+          "22:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "17:00",
+          "22:00"
+        ]
+      ]
+    },
+    "hours_display": "Tue-Thu 5:00 PM-10:00 PM; Fri-Sat 5:00 PM-11:00 PM; Sun 4:00 PM-9:00 PM",
+    "latitude": 42.011832,
+    "locality": "South Easton",
+    "longitude": -71.066423,
+    "name": "Porticello Restaurant",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-0220",
+    "website": "http://www.porticellorestaurant.com"
+  },
+  {
+    "address": "502 Foundry St",
+    "address_extended": "Ste 4",
+    "category_ids": [
+      141,
+      442
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Department Stores"
+      ],
+      [
+        "Retail",
+        "Discount Stores"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "6bce7eb0-5249-467b-ba82-3dcb646f64a7",
+    "hours": {
+      "sunday": [
+        [
+          "10:00",
+          "17:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "friday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "monday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 10:00 AM-9:00 PM; Sun 10:00 AM-5:00 PM",
+    "latitude": 42.022922,
+    "locality": "South Easton",
+    "longitude": -71.121919,
+    "name": "One Dollar Market",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-2688"
+  },
+  {
+    "address": "696 Washington St",
+    "category_ids": [
+      9
+    ],
+    "category_labels": [
+      [
+        "Automotive",
+        "Maintenance and Repair"
+      ]
+    ],
+    "country": "us",
+    "email": "collisiondoctors@yahoo.com",
+    "factual_id": "766b50b9-8b48-488a-b588-7b4e5fbeabfa",
+    "hours": {
+      "saturday": [
+        [
+          "8:00",
+          "23:59"
+        ]
+      ],
+      "tuesday": [
+        [
+          "7:00",
+          "18:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:00",
+          "18:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:00",
+          "18:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:00",
+          "18:00"
+        ]
+      ],
+      "monday": [
+        [
+          "7:00",
+          "18:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 7:00 AM-6:00 PM; Sat 8:00 AM-11:59 PM",
+    "latitude": 42.040937,
+    "locality": "South Easton",
+    "longitude": -71.076653,
+    "name": "Collision Doctors",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-1031",
+    "website": "http://www.collisiondoctors.com"
+  },
+  {
+    "address": "547 Washington St",
+    "category_ids": [
+      221
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Financial",
+        "Banking and Finance"
+      ]
+    ],
+    "country": "us",
+    "email": "info@northeastonsavingsbank.com",
+    "factual_id": "a4282dde-1d52-4bb1-a938-dddb191ee405",
+    "hours": {
+      "saturday": [
+        [
+          "9:00",
+          "13:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "9:00",
+          "19:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "19:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "19:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "8:30",
+          "16:30"
+        ]
+      ],
+      "monday": [
+        [
+          "8:30",
+          "16:30"
+        ]
+      ]
+    },
+    "hours_display": "Mon 8:30 AM-4:30 PM; Tue 9:00 AM-7:00 PM; Wed 8:30 AM-4:30 PM; Thu-Fri 9:00 AM-7:00 PM; Sat 9:00 AM-1:00 PM",
+    "latitude": 42.049585,
+    "locality": "South Easton",
+    "longitude": -71.084292,
+    "name": "North Easton Savings Bank",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-4800",
+    "website": "http://www.northeastonsavingsbank.com"
+  },
+  {
+    "address": "388 Depot St",
+    "category_ids": [
+      34
+    ],
+    "category_labels": [
+      [
+        "Community and Government",
+        "Education",
+        "Primary and Secondary Schools"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "397051f4-5951-412f-ae9d-4fe2066108a4",
+    "fax": "(508) 230-3240",
+    "hours": {
+      "tuesday": [
+        [
+          "9:00",
+          "15:20"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "15:20"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "15:20"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "15:20"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "15:20"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 9:00 AM-3:20 PM",
+    "latitude": 42.034501,
+    "locality": "South Easton",
+    "longitude": -71.099406,
+    "name": "Center School",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-3233",
+    "website": "http://www.easton.ma.us"
+  },
+  {
+    "address": "25 Robert Dr",
+    "address_extended": "Ste C3",
+    "category_ids": [
+      157
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Furniture and Decor"
+      ]
+    ],
+    "chain_id": "7f5564ff-bac3-4dcb-9f79-2607322c6795",
+    "chain_name": "Sleepy's The Mattress Professionals",
+    "country": "us",
+    "email": "sleepyswebhelp@sleepys.com",
+    "factual_id": "211e8995-2eea-44c3-ba1a-9257eb75135a",
+    "hours": {
+      "sunday": [
+        [
+          "11:00",
+          "19:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "friday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "monday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 10:00 AM-9:00 PM; Sun 11:00 AM-7:00 PM",
+    "latitude": 42.024823,
+    "locality": "South Easton",
+    "longitude": -71.141153,
+    "name": "Sleepy's The Mattress Professionals",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-1410",
+    "website": "http://www.sleepys.com"
+  },
+  {
+    "address": "107 Eastman St",
+    "category_ids": [
+      137
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Construction Supplies"
+      ]
+    ],
+    "country": "us",
+    "email": "jim@wmssimpson.com",
+    "factual_id": "17065221-bf33-447f-92f7-6a5ddc98daf7",
+    "fax": "(508) 230-7069",
+    "hours": {
+      "tuesday": [
+        [
+          "7:30",
+          "16:15"
+        ]
+      ],
+      "friday": [
+        [
+          "7:30",
+          "16:15"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:30",
+          "16:15"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:30",
+          "16:15"
+        ]
+      ],
+      "monday": [
+        [
+          "7:30",
+          "16:15"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 7:30 AM-4:15 PM",
+    "latitude": 42.025225,
+    "locality": "South Easton",
+    "longitude": -71.155709,
+    "name": "Simpson Wm S & Co.",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-0900",
+    "website": "http://www.wmssimpson.com"
+  },
+  {
+    "address": "606 Washington St",
+    "category_ids": [
+      339
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Bagels and Donuts"
+      ]
+    ],
+    "chain_id": "2cb519f8-883c-4263-860a-cd83325fbb97",
+    "chain_name": "Dunkin' Donuts",
+    "country": "us",
+    "email": "edcp@ddnedc.com",
+    "factual_id": "07f80b85-8630-4b7d-bc62-063822366f05",
+    "fax": "(508) 520-3029",
+    "hours": {
+      "sunday": [
+        [
+          "5:00",
+          "21:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "5:00",
+          "22:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "5:00",
+          "22:00"
+        ]
+      ],
+      "friday": [
+        [
+          "5:00",
+          "22:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "5:00",
+          "22:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "5:00",
+          "22:00"
+        ]
+      ],
+      "monday": [
+        [
+          "5:00",
+          "22:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 5:00 AM-10:00 PM; Sun 5:00 AM-9:00 PM",
+    "latitude": 42.046587,
+    "locality": "South Easton",
+    "longitude": -71.080221,
+    "name": "Dunkin' Donuts",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-8737",
+    "website": "http://www.dunkindonuts.com"
+  },
+  {
+    "address": "701 Foundry St",
+    "category_ids": [
+      55
+    ],
+    "category_labels": [
+      [
+        "Community and Government",
+        "Religious",
+        "Churches"
+      ]
+    ],
+    "country": "us",
+    "email": "gspceaston@gmail.com",
+    "factual_id": "57097bf8-bdb6-4980-b36d-8bda42ef900a",
+    "latitude": 42.011394,
+    "locality": "South Easton",
+    "longitude": -71.145923,
+    "name": "Good Shepherd Presbyterian Church",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-0994",
+    "website": "http://www.goodshepherdpresbyterian.org/"
+  },
+  {
+    "address": "10 Roosevelt Cir",
+    "category_ids": [
+      348,
+      349,
+      364
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "American"
+      ],
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "Barbecue"
+      ],
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "Seafood"
+      ]
+    ],
+    "country": "us",
+    "email": "atanner@stoneforge.net",
+    "factual_id": "0760463d-bb29-4863-8e92-92d67e520621",
+    "fax": "(508) 238-0544",
+    "hours": {
+      "sunday": [
+        [
+          "12:00",
+          "23:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "11:30",
+          "23:59"
+        ]
+      ],
+      "tuesday": [
+        [
+          "11:30",
+          "23:00"
+        ]
+      ],
+      "friday": [
+        [
+          "11:30",
+          "23:59"
+        ]
+      ],
+      "thursday": [
+        [
+          "11:30",
+          "23:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "11:30",
+          "23:00"
+        ]
+      ],
+      "monday": [
+        [
+          "11:30",
+          "23:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Thu 11:30 AM-11:00 PM; Fri-Sat 11:30 AM-11:59 PM; Sun 12:00 PM-11:00 PM",
+    "latitude": 42.051227,
+    "locality": "South Easton",
+    "longitude": -71.08511,
+    "name": "Stoneforge Grill",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-0550",
+    "website": "http://www.stoneforge.net"
+  },
+  {
+    "address": "225 Purchase St",
+    "category_ids": [
+      55
+    ],
+    "category_labels": [
+      [
+        "Community and Government",
+        "Religious",
+        "Churches"
+      ]
+    ],
+    "country": "us",
+    "email": "info@holycrosseaston.org",
+    "factual_id": "1d877915-c5ca-45f0-8bba-2e1f91b6028c",
+    "hours": {
+      "tuesday": [
+        [
+          "9:00",
+          "13:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "13:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "13:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "13:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "13:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 9:00 AM-1:00 PM",
+    "latitude": 42.026106,
+    "locality": "South Easton",
+    "longitude": -71.083821,
+    "name": "Holy Cross Church",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-2235",
+    "website": "http://www.holycrosseaston.org/youthministry.htm"
+  },
+  {
+    "address": "6 Meadowhill Ct",
+    "category_ids": [
+      55
+    ],
+    "category_labels": [
+      [
+        "Community and Government",
+        "Religious",
+        "Churches"
+      ]
+    ],
+    "country": "us",
+    "email": "admin@newhopechristianchapel.org",
+    "factual_id": "47bbfc76-661b-4832-86a8-a843cae3b53f",
+    "hours": {
+      "sunday": [
+        [
+          "10:30",
+          "11:45"
+        ]
+      ]
+    },
+    "hours_display": "Sun 10:30 AM-11:45 AM",
+    "latitude": 42.010501,
+    "locality": "South Easton",
+    "longitude": -71.069092,
+    "name": "New Hope Christian Chapel",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-9504",
+    "website": "http://www.newhopechristianchapel.org"
+  },
+  {
+    "address": "150 Foundry St",
+    "category_ids": [
+      400
+    ],
+    "category_labels": [
+      [
+        "Sports and Recreation",
+        "Recreation Centers"
+      ]
+    ],
+    "country": "us",
+    "email": "info@maplewoodyearround.com",
+    "factual_id": "1af845f5-11ea-4a5d-858b-b8fb9e674086",
+    "hours": {
+      "tuesday": [
+        [
+          "9:00",
+          "18:30"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "18:30"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "18:30"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "18:30"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "18:30"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 9:00 AM-6:30 PM",
+    "latitude": 42.00778,
+    "locality": "South Easton",
+    "longitude": -71.074075,
+    "name": "Maplewood Country Day Camp",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-2387",
+    "website": "http://www.maplewoodyearround.com"
+  },
+  {
+    "address": "41 Robert Dr",
+    "category_ids": [
+      141,
+      442
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Department Stores"
+      ],
+      [
+        "Retail",
+        "Discount Stores"
+      ]
+    ],
+    "chain_id": "ab4b8230-d68a-012e-5619-003048cad9da",
+    "chain_name": "Target",
+    "country": "us",
+    "email": "guest.service@target.com",
+    "factual_id": "218b2877-1776-4371-8e3b-69f12aa07a4c",
+    "fax": "(508) 230-0031",
+    "hours": {
+      "sunday": [
+        [
+          "7:00",
+          "23:59"
+        ]
+      ],
+      "saturday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "7:00",
+          "23:59"
+        ]
+      ],
+      "friday": [
+        [
+          "7:00",
+          "23:59"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:00",
+          "23:59"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:00",
+          "23:59"
+        ]
+      ],
+      "monday": [
+        [
+          "7:00",
+          "23:59"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 7:00 AM-11:59 PM; Sat 7:00 AM-10:00 PM; Sun 7:00 AM-11:59 PM",
+    "latitude": 42.027323,
+    "locality": "South Easton",
+    "longitude": -71.14364,
+    "name": "Target",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-0005",
+    "website": "http://www.target.com"
+  },
+  {
+    "address": "15 Hampden Dr",
+    "category_ids": [
+      385
+    ],
+    "category_labels": [
+      [
+        "Sports and Recreation",
+        "Gyms and Fitness Centers"
+      ]
+    ],
+    "country": "us",
+    "email": "easton-ma@patch.com",
+    "factual_id": "7f40c6f1-365a-44f8-8c50-469c6e82a50f",
+    "hours": {
+      "sunday": [
+        [
+          "9:00",
+          "12:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "9:00",
+          "12:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "5:30",
+          "20:00"
+        ]
+      ],
+      "friday": [
+        [
+          "5:30",
+          "20:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "5:30",
+          "20:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "5:30",
+          "20:00"
+        ]
+      ],
+      "monday": [
+        [
+          "5:30",
+          "20:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 5:30 AM-8:00 PM; Sat-Sun 9:00 AM-12:00 PM",
+    "latitude": 42.047604,
+    "locality": "South Easton",
+    "longitude": -71.072085,
+    "name": "Vagabond Cross Fit",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 930-8734",
+    "website": "http://vagabondcrossfit.com"
+  },
+  {
+    "address": "5 Norfolk Ave",
+    "category_ids": [
+      288
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Printing, Copying and Signage"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "5295153e-3b7e-4ab7-8ee5-7ca6b270ea99",
+    "hours": {
+      "tuesday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 9:00 AM-5:00 PM",
+    "latitude": 42.050438,
+    "locality": "South Easton",
+    "longitude": -71.07437,
+    "name": "Vestcom",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-4695",
+    "website": "http://www.​vestcom.​com"
+  },
+  {
+    "address": "95 Belmont St",
+    "category_ids": [
+      272
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Insurance"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "2765ce95-3154-44ac-8d30-d625fb672da6",
+    "fax": "(508) 238-9020",
+    "hours": {
+      "saturday": [
+        [
+          "00:00",
+          "4:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "00:00",
+          "5:00"
+        ],
+        [
+          "8:30",
+          "23:59"
+        ]
+      ],
+      "friday": [
+        [
+          "00:00",
+          "5:00"
+        ],
+        [
+          "8:30",
+          "23:59"
+        ]
+      ],
+      "thursday": [
+        [
+          "00:00",
+          "5:00"
+        ],
+        [
+          "8:30",
+          "23:59"
+        ]
+      ],
+      "wednesday": [
+        [
+          "00:00",
+          "5:00"
+        ],
+        [
+          "8:30",
+          "23:59"
+        ]
+      ],
+      "monday": [
+        [
+          "8:30",
+          "23:59"
+        ]
+      ]
+    },
+    "hours_display": "Mon 8:30 AM-11:59 PM; Tue-Fri 12:00 AM-5:00 AM, 8:30 AM-11:59 PM; Sat 12:00 AM-4:00 AM",
+    "latitude": 42.052639,
+    "locality": "South Easton",
+    "longitude": -71.076339,
+    "name": "Habig-Magoon Insurance Agency",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-3330",
+    "website": "http://www.habigmagoon.com"
+  },
+  {
+    "address": "795 Washington St",
+    "category_ids": [
+      167
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Pets"
+      ]
+    ],
+    "country": "us",
+    "email": "classie_canines@yahoo.com",
+    "factual_id": "ec1c5fa0-2fb8-425c-b014-87ccad68825c",
+    "hours": {
+      "sunday": [
+        [
+          "6:00",
+          "18:30"
+        ]
+      ],
+      "saturday": [
+        [
+          "6:00",
+          "18:30"
+        ]
+      ],
+      "tuesday": [
+        [
+          "6:00",
+          "18:30"
+        ]
+      ],
+      "friday": [
+        [
+          "6:00",
+          "18:30"
+        ]
+      ],
+      "thursday": [
+        [
+          "6:00",
+          "18:30"
+        ]
+      ],
+      "wednesday": [
+        [
+          "6:00",
+          "18:30"
+        ]
+      ],
+      "monday": [
+        [
+          "6:00",
+          "18:30"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 6:00 AM-6:30 PM",
+    "latitude": 42.034577,
+    "locality": "South Easton",
+    "longitude": -71.073841,
+    "name": "Classie Canines",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-1701",
+    "website": "http://www.classiecanines.com"
+  },
+  {
+    "address": "20 Eastman St",
+    "category_ids": [
+      221
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Financial",
+        "Banking and Finance"
+      ]
+    ],
+    "country": "us",
+    "email": "cpalm@northeastonsavingsbank.com",
+    "factual_id": "cb10166f-6a86-46b3-956f-1f358b85f375",
+    "hours": {
+      "tuesday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 9:00 AM-5:00 PM",
+    "latitude": 42.022909,
+    "locality": "South Easton",
+    "longitude": -71.143181,
+    "name": "North Easton Savings Bank",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-2007",
+    "website": "http://www.northeastonsavingsbank.com"
+  },
+  {
+    "address": "566 Washington St",
+    "address_extended": "Ste 4",
+    "category_ids": [
+      138
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Convenience Stores"
+      ]
+    ],
+    "chain_id": "ab4ba0c0-d68a-012e-5619-003048cad9da",
+    "chain_name": "7-Eleven",
+    "country": "us",
+    "email": "naeemi@7-eleven.com",
+    "factual_id": "3054126c-f274-46de-b2b0-0bd7cffecc09",
+    "hours": {
+      "sunday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "saturday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tuesday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "friday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "thursday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "wednesday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "monday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 12:00 AM-11:59 PM",
+    "latitude": 42.049396,
+    "locality": "South Easton",
+    "longitude": -71.08296,
+    "name": "7-Eleven",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-0321",
+    "website": "http://www.7-eleven.com/"
+  },
+  {
+    "address": "41 Robert Dr",
+    "category_ids": [
+      342
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Cafes, Coffee and Tea Houses"
+      ]
+    ],
+    "chain_id": "ab4c54c0-d68a-012e-5619-003048cad9da",
+    "chain_name": "Starbucks",
+    "country": "us",
+    "email": "info@starbucks.com",
+    "factual_id": "0888a76b-520c-4d01-8ba9-0e8ee62d2d25",
+    "hours": {
+      "sunday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "8:00",
+          "21:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "8:00",
+          "21:00"
+        ]
+      ],
+      "friday": [
+        [
+          "8:00",
+          "21:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "8:00",
+          "21:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "8:00",
+          "21:00"
+        ]
+      ],
+      "monday": [
+        [
+          "8:00",
+          "21:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 8:00 AM-9:00 PM; Sun 8:00 AM-8:00 PM",
+    "latitude": 42.027326,
+    "locality": "South Easton",
+    "longitude": -71.143549,
+    "name": "Starbucks",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-0005",
+    "website": "http://www.starbucks.com"
+  },
+  {
+    "address": "99 Eastman St",
+    "address_extended": "# A",
+    "category_ids": [
+      26
+    ],
+    "category_labels": [
+      [
+        "Community and Government",
+        "Education"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "38e7fa11-0b1c-4045-904f-08fea2ee1e79",
+    "hours": {
+      "saturday": [
+        [
+          "9:30",
+          "13:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "15:45",
+          "21:00"
+        ]
+      ],
+      "friday": [
+        [
+          "15:45",
+          "19:30"
+        ]
+      ],
+      "thursday": [
+        [
+          "10:45",
+          "11:45"
+        ],
+        [
+          "13:15",
+          "14:15"
+        ],
+        [
+          "15:45",
+          "21:15"
+        ]
+      ],
+      "wednesday": [
+        [
+          "10:15",
+          "11:15"
+        ],
+        [
+          "15:45",
+          "21:00"
+        ]
+      ],
+      "monday": [
+        [
+          "15:45",
+          "21:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Tue 3:45 PM-9:00 PM; Wed 10:15 AM-11:15 AM, 3:45 PM-9:00 PM; Thu 10:45 AM-11:45 AM, 1:15 PM-2:15 PM, 3:45 PM-9:15 PM; Fri 3:45 PM-7:30 PM; Sat 9:30 AM-1:00 PM",
+    "latitude": 42.025252,
+    "locality": "South Easton",
+    "longitude": -71.155931,
+    "name": "Dance Express",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-6101",
+    "website": "http://www.danceexpresseaston.com"
+  },
+  {
+    "address": "68 Prospect St",
+    "category_ids": [
+      451
+    ],
+    "category_labels": [
+      [
+        "Sports and Recreation",
+        "Golf",
+        "Golf Courses"
+      ]
+    ],
+    "country": "us",
+    "email": "leighbader@johnsoncitygolf.com",
+    "factual_id": "3b817048-e044-460e-8c30-3017a21926a3",
+    "fax": "(508) 238-0537",
+    "hours": {
+      "sunday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "monday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 7:00 AM-7:00 PM",
+    "latitude": 42.021312,
+    "locality": "South Easton",
+    "longitude": -71.09356,
+    "name": "Pine Oaks Golf Course",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-2320",
+    "website": "http://www.pineoaks.com"
+  },
+  {
+    "address": "594 Turnpike St",
+    "address_extended": "Ste 16",
+    "category_ids": [
+      291
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Real Estate"
+      ]
+    ],
+    "country": "us",
+    "email": "fac0263@extraspace.com",
+    "factual_id": "38151e29-8731-4142-b8ff-1247aded3b64",
+    "fax": "(508) 238-3208",
+    "hours": {
+      "saturday": [
+        [
+          "9:00",
+          "17:30"
+        ]
+      ],
+      "tuesday": [
+        [
+          "9:30",
+          "18:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:30",
+          "18:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:30",
+          "18:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:30",
+          "18:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:30",
+          "18:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 9:30 AM-6:00 PM; Sat 9:00 AM-5:30 PM",
+    "latitude": 42.001713,
+    "locality": "South Easton",
+    "longitude": -71.066073,
+    "name": "Extra Space Storage",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-0506",
+    "website": "http://www.extraspace.com/"
+  },
+  {
+    "address": "490 Foundry St",
+    "address_extended": "# B",
+    "category_ids": [
+      6
+    ],
+    "category_labels": [
+      [
+        "Automotive",
+        "Car Parts and Accessories"
+      ]
+    ],
+    "country": "us",
+    "email": "jerry@autotintplus.com",
+    "factual_id": "fbf56beb-9317-4c4a-9c41-5329c33b134f",
+    "hours": {
+      "tuesday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ]
+    },
+    "hours_display": "Tue-Fri 9:00 AM-5:00 PM",
+    "latitude": 42.023471,
+    "locality": "South Easton",
+    "longitude": -71.120411,
+    "name": "Auto Tint Plus",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-1191",
+    "website": "http://www.autotintplus.com"
+  },
+  {
+    "address": "533 Washington St",
+    "category_ids": [
+      23
+    ],
+    "category_labels": [
+      [
+        "Community and Government",
+        "Day Care and Preschools"
+      ]
+    ],
+    "country": "us",
+    "email": "user@kindercare.com",
+    "factual_id": "001239db-248f-45a9-a8a4-8e1de50c9338",
+    "fax": "(508) 238-7542",
+    "hours": {
+      "tuesday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "friday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "monday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 6:30 AM-6:00 PM",
+    "latitude": 42.050515,
+    "locality": "South Easton",
+    "longitude": -71.084826,
+    "name": "KinderCare Learning Center",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-8227",
+    "website": "http://www.kindercare.com/"
+  },
+  {
+    "address": "703 Washington St",
+    "category_ids": [
+      4
+    ],
+    "category_labels": [
+      [
+        "Automotive",
+        "Car Dealers and Leasing"
+      ]
+    ],
+    "chain_id": "e3b59980-cff1-425a-938b-4748683faf22",
+    "chain_name": "Ford Dealer",
+    "country": "us",
+    "email": "admin@baystateford.com",
+    "factual_id": "1d2cc348-95bd-476d-bd1f-6c4ed1c9b6d7",
+    "fax": "(781) 341-1060",
+    "hours": {
+      "sunday": [
+        [
+          "11:00",
+          "17:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "18:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Thu 9:00 AM-8:00 PM; Fri 9:00 AM-6:00 PM; Sat 9:00 AM-5:00 PM; Sun 11:00 AM-5:00 PM",
+    "latitude": 42.040524,
+    "locality": "South Easton",
+    "longitude": -71.077257,
+    "name": "Baystate Ford",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(888) 433-4496",
+    "website": "http://www.baystatefordinc.com/new-inventory/"
+  },
+  {
+    "address": "165 Belmont St",
+    "address_extended": "Ste B",
+    "category_ids": [
+      69
+    ],
+    "category_labels": [
+      [
+        "Healthcare",
+        "Dentists"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "3044f169-35ab-4761-b8ec-ce6d395fc8df",
+    "fax": "(508) 238-1988",
+    "hours": {
+      "tuesday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ],
+      "monday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 7:30 AM-5:00 PM",
+    "latitude": 42.055876,
+    "locality": "South Easton",
+    "longitude": -71.071717,
+    "name": "Easton Pediatric Dentistry",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-0900",
+    "website": "http://eastonpediatricdentistry.com"
+  },
+  {
+    "address": "491 Foundry St",
+    "category_ids": [
+      417
+    ],
+    "category_labels": [
+      [
+        "Transportation",
+        "Gas Stations"
+      ]
+    ],
+    "chain_id": "ab4b6f30-d68a-012e-5619-003048cad9da",
+    "chain_name": "Mobil",
+    "country": "us",
+    "factual_id": "7a633080-1e18-012f-0643-0030487f54d8",
+    "fax": "(508) 238-3211",
+    "hours": {
+      "sunday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "saturday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tuesday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "friday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "thursday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "wednesday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "monday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 12:00 AM-11:59 PM",
+    "latitude": 42.024117,
+    "locality": "Easton",
+    "longitude": -71.120458,
+    "name": "Mobil",
+    "postcode": "02334",
+    "region": "MA",
+    "tel": "(508) 238-7014",
+    "website": "http://www.mobil.com"
+  },
+  {
+    "address": "719 Washington St",
+    "category_ids": [
+      150
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Food and Beverage",
+        "Beer, Wine and Spirits"
+      ]
+    ],
+    "country": "us",
+    "email": "sales@simpsonspring.com",
+    "factual_id": "6bf3e559-812f-4454-8ff4-9a52a2f70ffb",
+    "hours": {
+      "saturday": [
+        [
+          "8:00",
+          "16:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "8:00",
+          "18:00"
+        ]
+      ],
+      "friday": [
+        [
+          "8:00",
+          "18:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "8:00",
+          "18:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "8:00",
+          "18:00"
+        ]
+      ],
+      "monday": [
+        [
+          "8:00",
+          "18:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 8:00 AM-6:00 PM; Sat 8:00 AM-4:00 PM",
+    "latitude": 42.039822,
+    "locality": "South Easton",
+    "longitude": -71.076197,
+    "name": "Simpson Spring Co.",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-4472",
+    "website": "http://www.simpsonspring.com"
+  },
+  {
+    "address": "2 Belmont St",
+    "address_extended": "Ste B",
+    "category_ids": [
+      355
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "Fast Food"
+      ]
+    ],
+    "chain_id": "ab4bee40-d68a-012e-5619-003048cad9da",
+    "chain_name": "Subway",
+    "country": "us",
+    "factual_id": "211bd8db-3dc2-4d9e-9c9f-3c6dba0674f1",
+    "fax": "(304) 346-3468",
+    "hours": {
+      "sunday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "monday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 7:00 AM-9:00 PM",
+    "latitude": 42.050116,
+    "locality": "South Easton",
+    "longitude": -71.083584,
+    "name": "Subway",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-2344",
+    "website": "http://www.subway.com"
+  },
+  {
+    "address": "646 Washington St",
+    "address_extended": "Ste 5",
+    "category_ids": [
+      280
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Personal Care",
+        "Beauty Salons and Barbers"
+      ]
+    ],
+    "country": "us",
+    "email": "salonluka09@gmail.com",
+    "factual_id": "49d9b0a4-2740-4365-b4d8-665ea840cea3",
+    "hours": {
+      "saturday": [
+        [
+          "9:00",
+          "16:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "10:00",
+          "17:00"
+        ]
+      ],
+      "friday": [
+        [
+          "10:00",
+          "20:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "10:00",
+          "20:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "10:00",
+          "20:00"
+        ]
+      ]
+    },
+    "hours_display": "Tue 10:00 AM-5:00 PM; Wed-Fri 10:00 AM-8:00 PM; Sat 9:00 AM-4:00 PM",
+    "latitude": 42.044071,
+    "locality": "South Easton",
+    "longitude": -71.07835,
+    "name": "Salon Luka",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-7077",
+    "website": "http://www.salonluka.com"
+  },
+  {
+    "address": "447 Turnpike St",
+    "address_extended": "Ste 5",
+    "category_ids": [
+      363
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "Pizza"
+      ]
+    ],
+    "country": "us",
+    "email": "news@wjar.com",
+    "factual_id": "bdd522cf-dcd7-4a61-a276-808886104182",
+    "hours": {
+      "sunday": [
+        [
+          "10:00",
+          "23:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "10:00",
+          "23:59"
+        ]
+      ],
+      "tuesday": [
+        [
+          "10:00",
+          "23:00"
+        ]
+      ],
+      "friday": [
+        [
+          "10:00",
+          "23:59"
+        ]
+      ],
+      "thursday": [
+        [
+          "10:00",
+          "23:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "10:00",
+          "23:00"
+        ]
+      ],
+      "monday": [
+        [
+          "10:00",
+          "23:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Thu 10:00 AM-11:00 PM; Fri-Sat 10:00 AM-11:59 PM; Sun 10:00 AM-11:00 PM",
+    "latitude": 42.01258,
+    "locality": "South Easton",
+    "longitude": -71.067139,
+    "name": "Lindos Pizza",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-4332",
+    "website": "http://www.lindospizzaeaston.com/"
+  },
+  {
+    "address": "250 Foundry St",
+    "category_ids": [
+      34
+    ],
+    "category_labels": [
+      [
+        "Community and Government",
+        "Education",
+        "Primary and Secondary Schools"
+      ]
+    ],
+    "country": "us",
+    "email": "mwilcox@sersd.org",
+    "factual_id": "b35536e8-e9a3-45b3-8932-92e43f287f6b",
+    "fax": "(508) 230-8352",
+    "hours": {
+      "tuesday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "friday": [
+        [
+          "8:00",
+          "16:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "monday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Thu 8:00 AM-8:00 PM; Fri 8:00 AM-4:00 PM",
+    "latitude": 42.009722,
+    "locality": "South Easton",
+    "longitude": -71.08189,
+    "name": "Southeastern Technical Institute",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-1200",
+    "website": "http://www.sti-tech.info/"
+  },
+  {
+    "address": "123 Belmont St",
+    "category_ids": [
+      355,
+      340,
+      342
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "Fast Food"
+      ],
+      [
+        "Social",
+        "Food and Dining",
+        "Bakeries"
+      ],
+      [
+        "Social",
+        "Food and Dining",
+        "Cafes, Coffee and Tea Houses"
+      ]
+    ],
+    "country": "us",
+    "email": "news@wjar.com",
+    "factual_id": "2793c745-9e72-4573-bd9a-4dce81b11dfe",
+    "fax": "(508) 238-6224",
+    "hours": {
+      "saturday": [
+        [
+          "8:00",
+          "18:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "friday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "monday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 6:30 AM-6:00 PM; Sat 8:00 AM-6:00 PM",
+    "latitude": 42.053922,
+    "locality": "South Easton",
+    "longitude": -71.074185,
+    "name": "Andrews Farm Bakery & Cyber",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-6677",
+    "website": "http://www.andrewscafe.com"
+  },
+  {
+    "address": "359 WASHINGTON St",
+    "category_ids": [
+      9
+    ],
+    "category_labels": [
+      [
+        "Automotive",
+        "Maintenance and Repair"
+      ]
+    ],
+    "country": "us",
+    "email": "easton-ma@patch.com",
+    "factual_id": "1f38c79f-6f7d-4649-81d9-d442bb0ff7b6",
+    "hours": {
+      "sunday": [
+        [
+          "8:00",
+          "21:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "6:00",
+          "22:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "6:00",
+          "22:00"
+        ]
+      ],
+      "friday": [
+        [
+          "6:00",
+          "22:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "6:00",
+          "22:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "6:00",
+          "22:00"
+        ]
+      ],
+      "monday": [
+        [
+          "6:00",
+          "22:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 6:00 AM-10:00 PM; Sun 8:00 AM-9:00 PM",
+    "latitude": 42.049088,
+    "locality": "South Easton",
+    "longitude": -71.083481,
+    "name": "Easton Auto Service",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-5862",
+    "website": "http://eastonautoservice.com"
+  },
+  {
+    "address": "2 Belmont St",
+    "address_extended": "Ste A",
+    "category_ids": [
+      339
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Bagels and Donuts"
+      ]
+    ],
+    "country": "us",
+    "email": "franchise@honeydewdonuts.com",
+    "factual_id": "3e757d48-e76e-4796-99c6-6eb835071980",
+    "hours": {
+      "sunday": [
+        [
+          "5:00",
+          "20:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "4:30",
+          "21:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "4:30",
+          "21:00"
+        ]
+      ],
+      "friday": [
+        [
+          "4:30",
+          "21:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "4:30",
+          "21:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "4:30",
+          "21:00"
+        ]
+      ],
+      "monday": [
+        [
+          "4:30",
+          "21:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 4:30 AM-9:00 PM; Sun 5:00 AM-8:00 PM",
+    "latitude": 42.049917,
+    "locality": "South Easton",
+    "longitude": -71.08351,
+    "name": "Honey Dew Donuts",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-0277",
+    "website": "http://www.honeydewdonuts.com"
+  },
+  {
+    "address": "25 Robert Dr",
+    "address_extended": "Ste C6B",
+    "category_ids": [
+      281
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Personal Care",
+        "Manicures and Pedicures"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "938b1512-8989-4997-b06b-a8c54e32a5fa",
+    "hours": {
+      "sunday": [
+        [
+          "10:00",
+          "19:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 9:00 AM-8:00 PM; Sun 10:00 AM-7:00 PM",
+    "latitude": 42.024653,
+    "locality": "South Easton",
+    "longitude": -71.141224,
+    "name": "Star Nails & Spa",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-7055",
+    "website": "http://www.starnail.com/"
+  },
+  {
+    "address": "65 Belmont St",
+    "category_ids": [
+      288
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Printing, Copying and Signage"
+      ]
+    ],
+    "country": "us",
+    "email": "southeaston@signsbytomorrow.com",
+    "factual_id": "256dc999-6416-4918-9685-d8bf0ac5d2f9",
+    "hours": {
+      "tuesday": [
+        [
+          "8:30",
+          "17:30"
+        ]
+      ],
+      "friday": [
+        [
+          "8:30",
+          "17:30"
+        ]
+      ],
+      "thursday": [
+        [
+          "8:30",
+          "17:30"
+        ]
+      ],
+      "wednesday": [
+        [
+          "8:30",
+          "17:30"
+        ]
+      ],
+      "monday": [
+        [
+          "8:30",
+          "17:30"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 8:30 AM-5:30 PM",
+    "latitude": 42.051729,
+    "locality": "South Easton",
+    "longitude": -71.078612,
+    "name": "Signs By Tomorrow",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-8901",
+    "website": "http://Signsbytomorrow.com/southeaston"
+  },
+  {
+    "address": "670 Depot St",
+    "address_extended": "Ste 6",
+    "category_ids": [
+      466,
+      159
+    ],
+    "category_labels": [
+      [
+        "Healthcare",
+        "Optometrist"
+      ],
+      [
+        "Retail",
+        "Glasses"
+      ]
+    ],
+    "country": "us",
+    "email": "info@southshoreeye.net",
+    "factual_id": "bcea4388-cdf2-4d24-bde7-43326d90f536",
+    "fax": "(508) 238-8468",
+    "hours": {
+      "saturday": [
+        [
+          "9:00",
+          "15:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "10:00",
+          "19:00"
+        ]
+      ],
+      "friday": [
+        [
+          "10:00",
+          "17:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "10:00",
+          "19:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "10:00",
+          "17:00"
+        ]
+      ],
+      "monday": [
+        [
+          "10:00",
+          "17:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon 10:00 AM-5:00 PM; Tue 10:00 AM-7:00 PM; Wed 10:00 AM-5:00 PM; Thu 10:00 AM-7:00 PM; Fri 10:00 AM-5:00 PM; Sat 9:00 AM-3:00 PM",
+    "latitude": 42.026535,
+    "locality": "Easton",
+    "longitude": -71.116948,
+    "name": "South Shore Eye Associates PC",
+    "po_box": "P.O. Box 1100",
+    "postcode": "02334",
+    "region": "MA",
+    "tel": "(508) 238-8460",
+    "website": "http://www.southshoreeye.net"
+  },
+  {
+    "address": "555 Washington St",
+    "category_ids": [
+      80
+    ],
+    "category_labels": [
+      [
+        "Healthcare",
+        "Pharmacies"
+      ]
+    ],
+    "chain_id": "ab4c24a0-d68a-012e-5619-003048cad9da",
+    "chain_name": "CVS Pharmacy",
+    "country": "us",
+    "factual_id": "393b9692-6e50-4ac7-aaf7-92482ea44c7d",
+    "fax": "(508) 238-4693",
+    "hours": {
+      "sunday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "monday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 7:00 AM-10:00 PM",
+    "latitude": 42.049037,
+    "locality": "South Easton",
+    "longitude": -71.084261,
+    "name": "CVS Pharmacy",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-3476",
+    "website": "http://www.cvs.com"
+  },
+  {
+    "address": "594 Washington St",
+    "address_extended": "Ste 3",
+    "category_ids": [
+      377
+    ],
+    "category_labels": [
+      [
+        "Sports and Recreation",
+        "Combat Sports"
+      ]
+    ],
+    "country": "us",
+    "email": "wendy.magus@educate.com",
+    "factual_id": "33a57429-09f8-4582-97ff-086b6797c08a",
+    "latitude": 42.047153,
+    "locality": "South Easton",
+    "longitude": -71.080399,
+    "name": "Personal Best Karate",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-8333",
+    "website": "http://www.personalbestkarate.com"
+  },
+  {
+    "address": "799 Washington St",
+    "category_ids": [
+      280
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Personal Care",
+        "Beauty Salons and Barbers"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "d429f469-ccf7-4f45-94b8-7d1958697a99",
+    "hours": {
+      "saturday": [
+        [
+          "7:00",
+          "18:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "9:00",
+          "19:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:00",
+          "19:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "19:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "19:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Wed 9:00 AM-7:00 PM; Thu-Fri 7:00 AM-7:00 PM; Sat 7:00 AM-6:00 PM",
+    "latitude": 42.034505,
+    "locality": "South Easton",
+    "longitude": -71.073591,
+    "name": "Tony's Barber Shop",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-1597"
+  },
+  {
+    "address": "35 Eastman St",
+    "category_ids": [
+      209
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Computers"
+      ]
+    ],
+    "country": "us",
+    "email": "triton@mt.com",
+    "factual_id": "3fcc133b-3c9e-45d3-9664-d08c29383fb2",
+    "hours": {
+      "sunday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "saturday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "tuesday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "friday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "thursday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "wednesday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ],
+      "monday": [
+        [
+          "00:00",
+          "23:59"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 12:00 AM-11:59 PM",
+    "latitude": 42.023747,
+    "locality": "South Easton",
+    "longitude": -71.14507,
+    "name": "Triton Technologies",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-7300",
+    "website": "http://www.tritontechnology.com/"
+  },
+  {
+    "address": "670 Washington St",
+    "category_ids": [
+      148
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Florists"
+      ]
+    ],
+    "country": "us",
+    "email": "especially_yours@verizon.net",
+    "factual_id": "52daa1a6-882e-445a-8e97-79f091166778",
+    "hours": {
+      "saturday": [
+        [
+          "7:30",
+          "15:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "7:30",
+          "16:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:30",
+          "17:00"
+        ]
+      ],
+      "monday": [
+        [
+          "7:30",
+          "16:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Tue 7:30 AM-4:00 PM; Wed-Fri 7:30 AM-5:00 PM; Sat 7:30 AM-3:00 PM",
+    "latitude": 42.042708,
+    "locality": "South Easton",
+    "longitude": -71.077641,
+    "name": "Especially Yours Florist Incorporated",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-9858",
+    "website": "http://www.especiallyyoursflorist.com/"
+  },
+  {
+    "address": "665 WASHINGTON St",
+    "category_ids": [
+      171
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Supermarkets and Groceries"
+      ]
+    ],
+    "country": "us",
+    "email": "emcgarry@tedeschifoodshops.com",
+    "factual_id": "ddb35f8f-3838-4336-bcd4-1d6e07e7e03d",
+    "hours": {
+      "sunday": [
+        [
+          "6:00",
+          "23:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "6:00",
+          "23:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "6:00",
+          "23:00"
+        ]
+      ],
+      "friday": [
+        [
+          "6:00",
+          "23:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "6:00",
+          "23:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "6:00",
+          "23:00"
+        ]
+      ],
+      "monday": [
+        [
+          "6:00",
+          "23:00"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 6:00 AM-11:00 PM",
+    "latitude": 42.043006,
+    "locality": "South Easton",
+    "longitude": -71.078183,
+    "name": "Tedeschi Food Shops",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-3217",
+    "website": "http://www.tedeschifoodshops.com"
+  },
+  {
+    "address": "704 Washington St",
+    "category_ids": [
+      51
+    ],
+    "category_labels": [
+      [
+        "Community and Government",
+        "Post Offices"
+      ]
+    ],
+    "chain_id": "30c40284-04fb-4ebb-8406-f3ac956bd976",
+    "chain_name": "US Post Office",
+    "country": "us",
+    "factual_id": "ac68a2ca-b881-4814-9bdf-eac2b5184bfa",
+    "hours": {
+      "saturday": [
+        [
+          "9:00",
+          "12:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "17:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 9:00 AM-5:00 PM; Sat 9:00 AM-12:00 PM",
+    "latitude": 42.0407,
+    "locality": "South Easton",
+    "longitude": -71.076381,
+    "name": "US Post Office",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(800) 275-8777",
+    "website": "http://www.usps.com"
+  },
+  {
+    "address": "944 Washington St",
+    "address_extended": "Ste 1",
+    "category_ids": [
+      74
+    ],
+    "category_labels": [
+      [
+        "Healthcare",
+        "Hospitals, Clinics and Medical Centers"
+      ]
+    ],
+    "country": "us",
+    "email": "contactus@doctorsmanagementservice.org",
+    "factual_id": "ba846743-d7d8-4562-87d6-8c6a09a6ff18",
+    "fax": "(508) 230-9772",
+    "hours": {
+      "tuesday": [
+        [
+          "8:00",
+          "16:30"
+        ]
+      ],
+      "friday": [
+        [
+          "8:00",
+          "16:30"
+        ]
+      ],
+      "thursday": [
+        [
+          "8:00",
+          "16:30"
+        ]
+      ],
+      "wednesday": [
+        [
+          "8:00",
+          "16:30"
+        ]
+      ],
+      "monday": [
+        [
+          "8:00",
+          "16:30"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 8:00 AM-4:30 PM",
+    "latitude": 42.025556,
+    "locality": "South Easton",
+    "longitude": -71.067599,
+    "name": "Doctor's Management Service",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-8646",
+    "website": "http://www.doctorsmanagementservice.org"
+  },
+  {
+    "address": "7 Renker Dr",
+    "category_ids": [
+      170
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Sporting Goods"
+      ]
+    ],
+    "country": "us",
+    "email": "zerohourgun@gmail.com",
+    "factual_id": "297c0d6a-7461-42d2-be7a-45c2ba6b4864",
+    "hours": {
+      "saturday": [
+        [
+          "10:00",
+          "17:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "10:00",
+          "19:00"
+        ]
+      ],
+      "friday": [
+        [
+          "10:00",
+          "19:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "10:00",
+          "19:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "10:00",
+          "17:00"
+        ]
+      ]
+    },
+    "hours_display": "Tue 10:00 AM-7:00 PM; Wed 10:00 AM-5:00 PM; Thu-Fri 10:00 AM-7:00 PM; Sat 10:00 AM-5:00 PM",
+    "latitude": 42.046944,
+    "locality": "South Easton",
+    "longitude": -71.069827,
+    "name": "Zero Hours Arms",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 584-0291",
+    "website": "http://www.zerohourarms.com/"
+  },
+  {
+    "address": "566 Washington St",
+    "category_ids": [
+      455
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Technology",
+        "Mobile"
+      ]
+    ],
+    "country": "us",
+    "email": "wz353@wireless-zone.com",
+    "factual_id": "426b62de-43b5-46ae-9054-1f360012fe34",
+    "hours": {
+      "sunday": [
+        [
+          "11:00",
+          "17:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "friday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ],
+      "monday": [
+        [
+          "9:00",
+          "20:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 9:00 AM-8:00 PM; Sun 11:00 AM-5:00 PM",
+    "latitude": 42.049442,
+    "locality": "South Easton",
+    "longitude": -71.082883,
+    "name": "Verizon Authorized Retailer - Wireless Zone",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-7990",
+    "website": "http://www.WirelessZone.com/Easton"
+  },
+  {
+    "address": "25 Robert Dr",
+    "category_ids": [
+      162
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Music, Video and DVD"
+      ]
+    ],
+    "chain_id": "ab4b8c60-d68a-012e-5619-003048cad9da",
+    "chain_name": "Redbox",
+    "country": "us",
+    "factual_id": "86b4dfef-f2c6-49f2-be3f-d2bad0fce175",
+    "hours": {
+      "sunday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "friday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ],
+      "monday": [
+        [
+          "8:00",
+          "20:00"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 8:00 AM-8:00 PM",
+    "latitude": 42.024661,
+    "locality": "South Easton",
+    "longitude": -71.141092,
+    "name": "Redbox",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(866) 733-2693",
+    "website": "http://www.redbox.com/"
+  },
+  {
+    "address": "620 Washington St",
+    "category_ids": [
+      361
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "Mexican"
+      ]
+    ],
+    "country": "us",
+    "email": "easton-ma@patch.com",
+    "factual_id": "34556738-a375-4b5f-afb2-fc7de3e30002",
+    "hours": {
+      "sunday": [
+        [
+          "11:00",
+          "23:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "11:00",
+          "23:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "11:00",
+          "23:00"
+        ]
+      ],
+      "friday": [
+        [
+          "11:00",
+          "23:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "11:00",
+          "23:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "11:00",
+          "23:00"
+        ]
+      ],
+      "monday": [
+        [
+          "11:00",
+          "23:00"
+        ]
+      ]
+    },
+    "hours_display": "Open Daily 11:00 AM-11:00 PM",
+    "latitude": 42.045629,
+    "locality": "South Easton",
+    "longitude": -71.079449,
+    "name": "El Mariachi",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-5900",
+    "website": "http://www.elmariachimexicanrestaurant.net/history.html"
+  },
+  {
+    "address": "447 Turnpike St",
+    "address_extended": "Ste 6",
+    "category_ids": [
+      377
+    ],
+    "category_labels": [
+      [
+        "Sports and Recreation",
+        "Combat Sports"
+      ]
+    ],
+    "country": "us",
+    "email": "vince@martialartscentereaston.com",
+    "factual_id": "0dfc6275-9109-443a-8146-dfc3804503f6",
+    "hours": {
+      "saturday": [
+        [
+          "8:30",
+          "14:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "friday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ],
+      "monday": [
+        [
+          "10:00",
+          "21:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 10:00 AM-9:00 PM; Sat 8:30 AM-2:00 PM",
+    "latitude": 42.012575,
+    "locality": "South Easton",
+    "longitude": -71.067272,
+    "name": "Martial Arts Center",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-6040",
+    "website": "http://www.MartialArtsCenterEaston.com"
+  },
+  {
+    "address": "956 Washington St",
+    "category_ids": [
+      348,
+      349,
+      312
+    ],
+    "category_labels": [
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "American"
+      ],
+      [
+        "Social",
+        "Food and Dining",
+        "Restaurants",
+        "Barbecue"
+      ],
+      [
+        "Social",
+        "Bars"
+      ]
+    ],
+    "country": "us",
+    "email": "info@tommydoylespub.com",
+    "factual_id": "0cea81be-f109-4907-8a42-df73b486e32f",
+    "hours": {
+      "sunday": [
+        [
+          "00:00",
+          "2:00"
+        ],
+        [
+          "12:00",
+          "23:59"
+        ]
+      ],
+      "saturday": [
+        [
+          "00:00",
+          "2:00"
+        ],
+        [
+          "11:00",
+          "23:59"
+        ]
+      ],
+      "tuesday": [
+        [
+          "00:00",
+          "1:00"
+        ],
+        [
+          "11:00",
+          "23:59"
+        ]
+      ],
+      "friday": [
+        [
+          "00:00",
+          "2:00"
+        ],
+        [
+          "11:00",
+          "23:59"
+        ]
+      ],
+      "thursday": [
+        [
+          "00:00",
+          "1:00"
+        ],
+        [
+          "11:00",
+          "23:59"
+        ]
+      ],
+      "wednesday": [
+        [
+          "00:00",
+          "1:00"
+        ],
+        [
+          "11:00",
+          "23:59"
+        ]
+      ],
+      "monday": [
+        [
+          "00:00",
+          "1:00"
+        ],
+        [
+          "11:00",
+          "23:59"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Thu 12:00 AM-1:00 AM, 11:00 AM-11:59 PM; Fri-Sat 12:00 AM-2:00 AM, 11:00 AM-11:59 PM; Sun 12:00 AM-2:00 AM, 12:00 PM-11:59 PM",
+    "latitude": 42.025176,
+    "locality": "South Easton",
+    "longitude": -71.067257,
+    "name": "Tommy Doyles Pub & Grill",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-9061",
+    "website": "http://tommydoylespub.com"
+  },
+  {
+    "address": "25 Robert Dr",
+    "category_ids": [
+      171
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Supermarkets and Groceries"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "9cb5ca77-6b2f-414a-b423-4d112c051d5b",
+    "hours": {
+      "sunday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "monday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 7:00 AM-10:00 PM; Sun 7:00 AM-9:00 PM",
+    "latitude": 42.024898,
+    "locality": "South Easton",
+    "longitude": -71.141483,
+    "name": "Hannaford",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-6305",
+    "website": "http://www.hannaford.com/"
+  },
+  {
+    "address": "502 Foundry St",
+    "category_ids": [
+      377
+    ],
+    "category_labels": [
+      [
+        "Sports and Recreation",
+        "Combat Sports"
+      ]
+    ],
+    "country": "us",
+    "email": "eastonsda@aol.com",
+    "factual_id": "1e01b1a9-11ed-4b52-9846-0b3c01a2ee55",
+    "hours": {
+      "saturday": [
+        [
+          "8:00",
+          "12:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "16:30",
+          "21:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "16:30",
+          "21:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "16:30",
+          "21:00"
+        ]
+      ],
+      "monday": [
+        [
+          "16:30",
+          "21:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Thu 4:30 PM-9:00 PM; Sat 8:00 AM-12:00 PM",
+    "latitude": 42.023209,
+    "locality": "South Easton",
+    "longitude": -71.121797,
+    "name": "Easton Self Defense Academy",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 230-8599",
+    "website": "http://www.eastonselfdefense.com"
+  },
+  {
+    "address": "699 DEPOT",
+    "category_ids": [
+      171
+    ],
+    "category_labels": [
+      [
+        "Retail",
+        "Supermarkets and Groceries"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "97031898-6600-4b79-9827-db7f1c14271f",
+    "hours": {
+      "sunday": [
+        [
+          "7:00",
+          "21:00"
+        ]
+      ],
+      "saturday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "tuesday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "friday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ],
+      "monday": [
+        [
+          "7:00",
+          "22:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Sat 7:00 AM-10:00 PM; Sun 7:00 AM-9:00 PM",
+    "latitude": 42.025999,
+    "locality": "Easton",
+    "longitude": -71.117904,
+    "name": "Shaw's Supermarkets",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-0165",
+    "website": "http://shaws.com/stores/viewstore?facilityId=7408"
+  },
+  {
+    "address": "12 Robert Dr",
+    "category_ids": [
+      221
+    ],
+    "category_labels": [
+      [
+        "Businesses and Services",
+        "Financial",
+        "Banking and Finance"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "3be86c59-4569-4a7c-bd3a-c7700cf9a9f2",
+    "hours": {
+      "saturday": [
+        [
+          "8:30",
+          "12:30"
+        ]
+      ],
+      "tuesday": [
+        [
+          "8:30",
+          "16:00"
+        ]
+      ],
+      "friday": [
+        [
+          "8:30",
+          "16:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "8:30",
+          "19:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "8:30",
+          "16:00"
+        ]
+      ],
+      "monday": [
+        [
+          "8:30",
+          "16:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Wed 8:30 AM-4:00 PM; Thu 8:30 AM-7:00 PM; Fri 8:30 AM-4:00 PM; Sat 8:30 AM-12:30 PM",
+    "latitude": 42.023921,
+    "locality": "South Easton",
+    "longitude": -71.142747,
+    "name": "Bank Of Easton",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 238-2092",
+    "website": "http://www.bankofeaston.com"
+  },
+  {
+    "address": "130 Depot St",
+    "category_ids": [
+      23
+    ],
+    "category_labels": [
+      [
+        "Community and Government",
+        "Day Care and Preschools"
+      ]
+    ],
+    "country": "us",
+    "factual_id": "397fd6c7-d104-48a7-8241-b58fec2b1819",
+    "fax": "(508) 565-9903",
+    "hours": {
+      "tuesday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "friday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "thursday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "wednesday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ],
+      "monday": [
+        [
+          "6:30",
+          "18:00"
+        ]
+      ]
+    },
+    "hours_display": "Mon-Fri 6:30 AM-6:00 PM",
+    "latitude": 42.041339,
+    "locality": "South Easton",
+    "longitude": -71.079859,
+    "name": "Creative World Childrens Learning Center",
+    "postcode": "02375",
+    "region": "MA",
+    "tel": "(508) 565-9900",
+    "website": "http://www.creativeworldclc.net/about.html"
+  }
+]

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DND</title>
+    <script src="../jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script><!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='css/main.css'>
+    <link rel='stylesheet' href='css/angular-json-tree.css'>
+    <script src="json-tree.js"></script>
+  </head>
+  <body ng-app="myApp" ng-controller="myCtrl">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Dungeons and Dragons</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="../">Home</a></li>
+          <li><a href="#" class="active" onclick="setMonsters()">Monsters</a></li>
+          <li><a href="#" onclick="setSpells()">Spells</a></li>
+          <li><a href="#" onclick="setMaster()">MasterSRD</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div ng-if="Monsters">
+      <input id="ObjectFilter" onkeyup="clearTimeout(myTimeFunc);myFunc(this.value)" value="">
+      <br>
+      <json-tree object="Monsters" class="expandable"></json-tree>
+    </div>
+    <script type="text/javascript">
+      var myTimeFunc;
+      var filteredMons = {};
+      var abc;
+      var abcd;
+      var abcde;
+      var scop;
+      var curJSON = "Monsters";
+      var clientX = 0;
+      var clientY = 0;
+      document.onmousemove=function(e){
+        clientX = e.clientX;
+        clientY = e.clientY;
+      };
+      function setMonsters(){
+        if(curJSON !== "Monsters"){
+          curJSON = "Monsters";
+          if(scop){
+            scop.abc = abc;
+            scop.$apply();
+          }
+        }
+      }
+      function setSpells(){
+        if(curJSON !== "Spells"){
+          curJSON = "Spells";
+          if(scop){
+            scop.abc = abcd;
+            scop.$apply();
+          }
+        }
+      }
+      function setMaster(){
+        if(curJSON !== "Master"){
+          curJSON = "Master";
+          if(scop){
+            scop.abc = abcde;
+            scop.$apply();
+          }
+        }
+      }
+      //Filter object with keyword
+      function filterObject(filterKey){
+        if(scop){
+          if(filterKey.length>0){
+            if(curJSON === "Monsters"){
+              if(abc){
+                filteredMons = jQuery.extend({},abc,true);
+              }
+            }else if(curJSON === "Spells"){
+              if(abcd){
+                filteredMons = jQuery.extend({},abcd,true);
+              }
+            }else if(curJSON === "Master"){
+              if(abcde){
+                filteredMons = jQuery.extend({},abcde,true);
+              }
+            }
+            filteredMons = Object.values(filteredMons);
+            filteredMons = filteredMons.filter(function(e){
+              var tempE = JSON.stringify(e);
+              return tempE.includes(filterKey)
+            });
+          }else{
+            if(curJSON === "Monsters"){
+              if(abc){
+                filteredMons = jQuery.extend({},abc,true);
+              }
+            }else if(curJSON === "Spells"){
+              if(abcd){
+                filteredMons = jQuery.extend({},abcd,true);
+              }
+            }else if(curJSON === "Master"){
+              if(abcde){
+                filteredMons = jQuery.extend({},abcde,true);
+              }
+            }
+          }
+          if(scop.abc){
+            if(filteredMons){
+              scop.abc = filteredMons;
+              scop.$apply();
+            }
+          }
+        }
+      }
+      function myFunc(oFilterKey){
+        myTimeFunc=setTimeout(filterObject(oFilterKey),1000);
+      }
+      var app = angular.module('myApp', ["angular-json-tree"]);
+      app.controller("myCtrl", function($scope) {
+        $scope.clientX = clientX;
+        $scope.clientY = clientY;
+        $scope.Monsters = {};
+        $scope.jQuery = jQuery;
+        $scope.abc = {};
+        /*
+        Sample
+          {{"name: "+Monster.name}}
+          {{"size: "+Monster.size}}
+          {{"type: "+Monster.type}}
+        */
+        $scope.myCheckString=function(e){
+          if((typeof(e)).toLowerCase() === "string"){
+            return true
+          }else{
+            return false
+          }
+        };
+        $scope.myCheckNum=function(e){
+          if((typeof(e)).toLowerCase() === "number"){
+            return true
+          }else{
+            return false
+          }
+        };
+        $scope.myCheckObj=function(e){
+          if((typeof(e)).toLowerCase() === "object"){
+            return true
+          }else{
+            return false
+          }
+        };
+        $scope.Object = Object;
+        $scope.AllSpace = new RegExp(/ /g);
+        scop = $scope;
+        //https://dl.dropboxusercontent.com/s/121t7xstyyeofxw/5e-SRD-Spells.json
+        //https://dl.dropboxusercontent.com/s/iwz112i0bxp2n4a/5e-SRD-Monsters.json
+        //https://raw.githubusercontent.com/BTMorton/dnd-5e-srd/master/5esrd.json
+        $scope.$watch('abc', function (newVal, oldVal) {
+          if (newVal !== oldVal) {
+            try {
+              $scope.error = null;
+              $scope.Monsters = newVal;
+            } catch (e) {
+              console.log(e);
+              $scope.error = {
+                message: e.message,
+                show: true
+              }
+            }
+          }
+        });
+        $.getJSON('https://dl.dropboxusercontent.com/s/iwz112i0bxp2n4a/5e-SRD-Monsters.json',function(data){
+          abc = data;
+          scop.abc = abc;
+        });
+        $.getJSON('https://dl.dropboxusercontent.com/s/121t7xstyyeofxw/5e-SRD-Spells.json',function(data){
+          abcd = data;
+        });
+        $.getJSON('https://raw.githubusercontent.com/BTMorton/dnd-5e-srd/master/5esrd.json',function(data){
+          abcde = data;
+        });
+      });
+    </script>
+  </body>
+</html>

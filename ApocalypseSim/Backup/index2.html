@@ -1,0 +1,24 @@
+
+<iframe id="yes" src="screenshot.png" style="width:100%;height:100%;">
+
+</iframe>
+<script>
+var frameCount=0;
+setInterval(function(){
+yes.style.position="absolute";
+yes.style.top="-92px";
+yes.style.left="-2px";
+yes.style.height=(window.windowHeight)+"px";
+yes.style.width=window.windowWidth+"px";
+yes.style.overflow="hidden";
+document.body.style.overflow="hidden";
+document.getElementById('yes').src=document.getElementById('yes').src;
+
+var iDocument=document.getElementById('yes').contentDocument;
+iDocument.body.style.overflow="hidden";
+var newImg=iDocument.getElementsByTagName('img')[0];
+//newImg.style.width="100%";
+//newImg.style.height="1080%";
+frameCount++;
+},200);
+</script>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<script src="https://www.gstatic.com/firebasejs/3.5.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDaBsOR2u4E4UUPL_AvsmENLSpQRDKriTM",
+    authDomain: "apocalypse-simulator-2.firebaseapp.com",
+    databaseURL: "https://apocalypse-simulator-2.firebaseio.com",
+    storageBucket: "apocalypse-simulator-2.appspot.com",
+    messagingSenderId: "648992962046"
+  };
+  firebase.initializeApp(config);
+</script>
+	<script>
+		var timeToClose=false;
+		var thisPage=window.open("","_parent");
+		var closePage2=function(){
+			thisPage.close();
+			thisPage=window.open("about:blank","_self");
+		thisPage.document.write("<button onclick='test()' id='closePage'>Close</button>");
+    		thisPage.document.write("<script>var closeFinal;var test=function(){closeFinal=open('about:blank','_parent');closeFinal.document.write('<button id=\"closePage\" onclick=\"ccc()\">end</button>\\n<script>var ccc=function(){open(\"\",\"_parent\").close();};document.getElementById(\"closePage\").click();<\\/script>');};document.getElementById('closePage').click();<\/script>");
+		};
+		thisPage.document.write('<head>\n<link rel="stylesheet" href="css/css.css" type="text/css" />\n<title> Welcome to the Apocalypse (Alpha 0.2.3) </title> \n</head>');
+		thisPage.document.write('<body text= "SpringGreen">\n<h2> Welcome to the Apocalypse Simulator 2077 </h2>\n<form onsubmit="return false;">\n	<input hidden="true" onkeydown="updateText();" onkeyup="updateText();" bgcolor="black" type="text" size="50" autofocus="autofocus" id="command_line"/>\n</form>\n<div id="container1">\n	<div id="console" style="height: 90%; width: 500px;">\n<div id="place_holder"></div>\n<div id="message_startgame"> <p>>Welcome to the Apocalypse Simulator 2077!</p><br>\n<div id="assignPoints">\n<p>What are your skills?</p><br>\nTotal Points Left:<div id="totalP"></div>\n		Strength:<input  id="baseS" type="number" min="1" value="1"/><br>\n		Perception:<input  id="baseP" type="number" min="1" value="1"/><br>\n		Endurance:<input  id="baseE" type="number" min="1" value="1"/><br>\n		Charisma:<input  id="baseC" type="number" min="1" value="1"/><br>\n		Intelligence:<input  id="baseI" type="number" min="1" value="1"/><br>\n		Agility:<input  id="baseA" type="number" min="1" value="1"/><br>\n		Luck:<input  id="baseL" type="number" min="1" value="1"/><br>\n		<div id="baseD"></div><br>\n</div>\n		</div>\n				<!--Location Messages-->\n				<div hidden="true" id="start">\n		<p id="area_vault" ></p>\n							</div>\n		<p id="dispName"> >Your name is </p>\n							<div hidden="false">\n							<p id="message_room1">>You see a rusty shack.</p>\n							<p id="message_room2">>You entered room 2</p>\n							<p id="message_room3">>You entered room 3.</p>\n							<p id="message_room4">>You entered room 4.</p>\n							<p id="message_room5">>You encounter what seems to be an abandoned cornfield.</p>\n							<p id="message_room99">>You see a merchant.</p>\n							<p id="message_vaultReturn">>It\'s the vault you were kicked out from. <br>\n							[You notice a MASSIVE TITANIUM LOCK on the front of the shelter]</p>\n		</div>\n		<div class="items" hidden="false">\n		<p id="message_item1">>You see nothing.</p>\n		<p id="message_item2">>You see a 9MM Pistol.</p>\n		<p id="message_item3">>You see a Shotgun.</p>\n		<p id="message_item4">>You see a stick.</p>\n		<p id="message_item5">>You see a smg.</p>\n		<p id="message_item6">>You see a nuke launcher.</p>\n		<p id="message_item7">>You see a thingy.</p>\n		<p id="message_item8">>You see a bandage.</p>\n		<p id="message_nothing">>You see nothing.</p>\n		<p id="message_takeItem1">>You took nothing.</p>\n		<p id="message_takeItem2">>You took a 9MM Pistol.</p>\n		<p id="message_takeItem3">>You took a Shotgun.</p>\n		<p id="message_takeItem4">>You took a stick.</p>\n		<p id="message_takeItem5">>You took an smg.</p>\n		<p id="message_takeItem6">>You took a nuke launcher.</p>\n		<p id="message_takeItem7">>You took a thingy.</p>\n		<p id="message_takeItem8">>You took a bandage.</p>\n		<p id="message_equipItem1">>You equipped nothing.</p>\n		<p id="message_equipItem2">>You equipped a 9MM Pistol.</p>\n		<p id="message_equipItem3">>You equipped a Shotgun.</p>\n		<p id="message_equipItem4">>You equipped a stick.</p>\n		<p id="message_equipItem5">>You equipped an smg.</p>\n		<p id="message_equipItem6">>You equipped a nuke launcher.</p>\n		<p id="message_equipItem7">>You equipped a thingy.</p>\n		<p id="message_noEquipItem1">>You don\'t have nothing.</p>\n		<p id="message_noEquipItem2">>You don\'t have a 9MM Pistol.</p>\n		<p id="message_noEquipItem3">>You don\'t have a Shotgun.</p>\n		<p id="message_noEquipItem4">>You don\'t have a stick.</p>\n		<p id="message_noEquipItem5">>You don\'t have an smg.</p>\n		<p id="message_noEquipItem6">>You don\'t have a nuke launcher.</p>\n		<p id="message_noEquipItem7">>You don\'t have a thingy.</p>\n		<p id="message_useBandage">>You used a bandage.</p>\n		</div>\n				<!--Command Messages-->	\n	<div class="commands" hidden="false">\n		<p id="message_help"> >Here is a list of commands:\n														 <br> "help" - Alright no help there... \n														 <br> "open" - Use to access doors or objects.\n														 <br> "take" - Puts requested item in inventory.\n														 <br> "read" - Helps if your not illiterate.\n														 <br> "stats" - Displays stats.\n														 <br> "look around" - Tells you what objects are within your reach.\n		</p> \n		<p id="messageInventory">\n		\n		</p>\n		<p id="message_wat">>I have no idea what you just said.</p>\n		\n		<p id="message_take">>Take what?</p>\n		\n		<p id="message_takestick">>Sharp Wooden Stick taken.<br> Careful, you could poke someone\'s eye out.</p>\n<p id="message_nostick">>There are no sticks.</p>\n		<p id="message_takenote1">>Note from vault keeper taken.<br></p>\n		<p id="useBandage">>Bandage used.<br></p>\n		\n		<p id="message_readnote1">>[The Note Reads] \n								<br>You will die out there.</p>\n		<p id="2late">>2 Late fam, should have been a <br>\n						responsible kid and typed it at the start.</p>\n		<div id="display_statsDone" hidden="false" style="color:SpringGreen;font-weight:bold;font-family:Courier New;display:none;">\n		> These will be your stats:\n		<p class="htmS"></p>\n		<p class="htmP"></p>\n		<p class="htmE"></p>\n		<p class="htmC"></p>\n		<p class="htmI"></p>\n		<p class="htmA"></p>\n		<p class="htmL"></p>\n		<p class="htmD"></p>\n		<p class="htmHealth"></p>\n		<p class="playerCaps"></p>\n		</div>	\n		<div id="display_stats" hidden="false" style="color:SpringGreen;font-weight:bold;font-family:Courier New;display:none;">\n		> Stats:\n		<p class="htmS"></p>\n		<p class="htmP"></p>\n		<p class="htmE"></p>\n		<p class="htmC"></p>\n		<p class="htmI"></p>\n		<p class="htmA"></p>\n		<p class="htmL"></p>\n		<p class="htmD"></p>\n		<p class="htmHealth"></p>\n		<p class="playerCaps"></p>\n		</div>			\n	</div>\n	</div>\n</div>\n<div style="top: 503px; left:5%;">\n<div id="blinking" style="display: none"><blink>></blink></div>\n<div id="dispText" text="SpringGreen"></div>\n</div>\n</body>');
+		thisPage.document.writeln('<script src="js/jquery.js"><\/script>');
+		thisPage.document.writeln('<script src="js/libgif.js"><\/script>');
+		thisPage.document.writeln('<script src="js/p5.js"><\/script>');
+		thisPage.document.writeln('<script src="js/p5.dom.js"><\/script>');
+		thisPage.document.writeln('<script src="js/p5.sound.js"><\/script>');
+		thisPage.document.writeln('<script src="js/p5.speech.js"><\/script>');
+		thisPage.document.writeln('<script src="js/p5.gibber.min.js"><\/script>');
+		thisPage.document.writeln('<script src="js/highlight.pack.js"><\/script>');
+		thisPage.document.writeln('<script src="js/sketch.js" async><\/script>');
+		thisPage.document.writeln('<script src="js/game.js"><\/script>');
+		/*
+		thisPage.document.writeln('<button id="closePageA" onclick="closePa();" style="visibility: hidden;"></button>');
+		thisPage.document.writeln("<script>var closePa=function(){open(location,'_self').close();};<\/script>");
+		*/
+		var closePage=function(){
+			timeToClose=true;
+		};
+		var backupClose=function(){
+			timeToClose=true;
+		};
+		setInterval(function(){
+			if(timeToClose){
+				closePage2();
+				timeToClose=false;
+			}
+		},10);
+	</script>
+</html>

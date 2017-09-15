@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/css.css" type="text/css" />
+<title> Welcome to the Apocalypse (Alpha 0.2.3) </title> 
+</head>
+<body text= "SpringGreen">
+<h2> Welcome to the Apocalypse Simulator 2077 </h2>
+<form onsubmit="return false;">
+	<input hidden="true" onkeydown="updateText();" onkeyup="updateText();" bgcolor="black" type="text" size="50" autofocus="autofocus" id="command_line"/>
+</form>
+<div id="container1">
+	<div id="console" style="height: 90%; width: 500px;">
+	
+<div id="place_holder"></div>
+		
+		
+		<div id="message_startgame"> <p>>Welcome to the Apocalypse Simulator 2077!</p><br>
+		
+
+						<div id="assignPoints">
+		<p>What are your skills?</p><br>
+		Total Points Left:<div id="totalP"></div>
+		Strength:<input  id="baseS" type="number" min="1" value="1"/><br>
+		Perception:<input  id="baseP" type="number" min="1" value="1"/><br>
+		Endurance:<input  id="baseE" type="number" min="1" value="1"/><br>
+		Charisma:<input  id="baseC" type="number" min="1" value="1"/><br>
+		Intelligence:<input  id="baseI" type="number" min="1" value="1"/><br>
+		Agility:<input  id="baseA" type="number" min="1" value="1"/><br>
+		Luck:<input  id="baseL" type="number" min="1" value="1"/><br>
+		<div id="baseD"></div><br>
+						</div>
+		
+		
+		
+		</div>
+		
+		
+		
+				<!--Location Messages-->
+				<div hidden="true" id="start">
+		<p id="area_vault" ></p>
+							</div>
+		<p id="dispName"> >Your name is </p>
+							<div hidden="false">
+							<p id="message_room1">>You see a rusty shack.</p>
+							<p id="message_room2">>You entered room 2</p>
+							<p id="message_room3">>You entered room 3.</p>
+							<p id="message_room4">>You entered room 4.</p>
+							<p id="message_room5">>You encounter what seems to be an abandoned cornfield.</p>
+							<p id="message_room99">>You see a merchant.</p>
+							<p id="message_vaultReturn">>It's the vault you were kicked out from. <br> 
+							[You notice a MASSIVE TITANIUM LOCK on the front of the shelter]
+							</p>
+		</div>
+		<div class="items" hidden="false">
+		<p id="message_item1">>You see nothing.</p>
+		<p id="message_item2">>You see a 9MM Pistol.</p>
+		<p id="message_item3">>You see a Shotgun.</p>
+		<p id="message_item4">>You see a stick.</p>
+		<p id="message_item5">>You see a smg.</p>
+		<p id="message_item6">>You see a nuke launcher.</p>
+		<p id="message_item7">>You see a thingy.</p>
+		<p id="message_item8">>You see a bandage.</p>
+		<p id="message_nothing">>You see nothing.</p>
+		<p id="message_takeItem1">>You took nothing.</p>
+		<p id="message_takeItem2">>You took a 9MM Pistol.</p>
+		<p id="message_takeItem3">>You took a Shotgun.</p>
+		<p id="message_takeItem4">>You took a stick.</p>
+		<p id="message_takeItem5">>You took an smg.</p>
+		<p id="message_takeItem6">>You took a nuke launcher.</p>
+		<p id="message_takeItem7">>You took a thingy.</p>
+		<p id="message_takeItem8">>You took a bandage.</p>
+		<p id="message_equipItem1">>You equipped nothing.</p>
+		<p id="message_equipItem2">>You equipped a 9MM Pistol.</p>
+		<p id="message_equipItem3">>You equipped a Shotgun.</p>
+		<p id="message_equipItem4">>You equipped a stick.</p>
+		<p id="message_equipItem5">>You equipped an smg.</p>
+		<p id="message_equipItem6">>You equipped a nuke launcher.</p>
+		<p id="message_equipItem7">>You equipped a thingy.</p>
+		<p id="message_noEquipItem1">>You don't have nothing.</p>
+		<p id="message_noEquipItem2">>You don't have a 9MM Pistol.</p>
+		<p id="message_noEquipItem3">>You don't have a Shotgun.</p>
+		<p id="message_noEquipItem4">>You don't have a stick.</p>
+		<p id="message_noEquipItem5">>You don't have an smg.</p>
+		<p id="message_noEquipItem6">>You don't have a nuke launcher.</p>
+		<p id="message_noEquipItem7">>You don't have a thingy.</p>
+		<p id="message_useBandage">>You used a bandage.</p>
+		</div>
+				<!--Command Messages-->	
+	<div class="commands" hidden="false">
+		<p id="message_help"> >Here is a list of commands:
+														 <br> "help" - Alright no help there... 
+														 <br> "open" - Use to access doors or objects.
+														 <br> "take" - Puts requested item in inventory.
+														 <br> "read" - Helps if your not illiterate.
+														 <br> "stats" - Displays stats.
+														 <br> "look around" - Tells you what objects are within your reach.
+
+
+		</p> 
+		<p id="messageInventory">
+		
+		</p>
+		<p id="message_wat">>I have no idea what you just said.</p>
+		
+		<p id="message_take">>Take what?</p>
+		
+		<p id="message_takestick">>Sharp Wooden Stick taken.<br> Careful, you could poke someone's eye out.</p>
+		
+		<p id="message_nostick">>There are no sticks.</p>
+		<p id="message_takenote1">>Note from vault keeper taken.<br></p>
+		<p id="useBandage">>Bandage used.<br></p>
+		
+		<p id="message_readnote1">>[The Note Reads] 
+								<br>You will die out there.</p>
+		<p id="2late">>2 Late fam, should have been a <br>
+						responsible kid and typed it at the start.</p>
+		<div id="display_statsDone" hidden="false" style="color:SpringGreen;font-weight:bold;font-family:Courier New;display:none;">
+		> These will be your stats:
+		<p class="htmS"></p>
+		<p class="htmP"></p>
+		<p class="htmE"></p>
+		<p class="htmC"></p>
+		<p class="htmI"></p>
+		<p class="htmA"></p>
+		<p class="htmL"></p>
+		<p class="htmD"></p>
+		<p class="htmHealth"></p>
+		<p class="playerCaps"></p>
+		</div>	
+		<div id="display_stats" hidden="false" style="color:SpringGreen;font-weight:bold;font-family:Courier New;display:none;">
+		> Stats:
+		<p class="htmS"></p>
+		<p class="htmP"></p>
+		<p class="htmE"></p>
+		<p class="htmC"></p>
+		<p class="htmI"></p>
+		<p class="htmA"></p>
+		<p class="htmL"></p>
+		<p class="htmD"></p>
+		<p class="htmHealth"></p>
+		<p class="playerCaps"></p>
+		</div>			
+	</div>
+	</div>
+</div>
+<div style="top: 503px; left:5%;">
+<div id="blinking" style="display: none"><blink>></blink></div>
+<div id="dispText" text="SpringGreen"></div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.5.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDaBsOR2u4E4UUPL_AvsmENLSpQRDKriTM",
+    authDomain: "apocalypse-simulator-2.firebaseapp.com",
+    databaseURL: "https://apocalypse-simulator-2.firebaseio.com",
+    storageBucket: "apocalypse-simulator-2.appspot.com",
+    messagingSenderId: "648992962046"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="js/p5.js"></script>
+<script src="js/p5.dom.js"></script>
+<script src="js/p5.sound.js"></script>
+<script src="js/p5.speech.js"></script>
+<script src="js/p5.gibber.min.js" type="text/javascript"></script>
+<script src="js/highlight.pack.js"></script>
+<script src="js/sketch.js" async></script>
+<script type="text/javascript" src="js/game.js"></script>
+</body>
+</html>
