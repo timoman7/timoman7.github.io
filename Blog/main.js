@@ -2,15 +2,13 @@ var userDB = firebase.database().ref("users");
 var currentUser;
 setInterval(function(){
 	if(currentUser){
-		var logoutbtn = $(".Logout");
-		logoutbtn.show();
-		var loginbtns = $(".Login");
-		loginbtns.hide();
+		$(".Login").class = "Logout";
+		$("#LogButtonIcon").class = "glyphicon glyphicon-log-out";
+		$(".LogButton").html(" Log out");
 	}else{
-		var logoutbtn = $(".Logout");
-		logoutbtn.hide();
-		var loginbtns = $(".Login");
-		loginbtns.show();
+		$(".Logout").class = "Login";
+		$("#LogButtonIcon").class = "glyphicon glyphicon-log-in";
+		$(".LogButton").html(" Sign in with Google");
 	}
 },100);
 
