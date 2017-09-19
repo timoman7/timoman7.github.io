@@ -58,11 +58,25 @@ function signOut(){
 		alert("Somehow you screwed up logging out.");
 	});
 }
+var _RefFiles = [];
 function uploadImages(_FileList){
 	var blogPreview = document.getElementById("preview");
 	blogPreview.innerHTML="";
+	var _FileReaders = [];
 	for(var i = 0; i < _FileList.length; i++){
 		var _File = _FileList[i];
+		_FileReaders[i] = new FileReader;
+		var _FileName=i+"."+(_File.type.split('/')[1]);
+		_FileReaders[i].type = _File.type;
+		_FileReaders[i].FileID = i;
+		_FileReaders[i].addEventListener('loadend',function(){
+			var __FileName=this.FileID+"."+(this.type.split('/')[1]);
+			_RefFiles.push({
+				name:__FileName,
+				DataURL:this.result
+			});
+		});
+		_FileReaders[i].readAsDataURL(_File);
 		var tempImage = document.createElement("img");
 		tempImage.src = window.URL.createObjectURL(_File);
 		blogPreview.appendChild(tempImage);
@@ -76,58 +90,34 @@ function submitBlog(){
 	var _Files = fo.elements.blogFiles.files;
 	var _PostText = fo.elements.blogText.value;
 	var _PostTitle = fo.elements.blogTitle.value;
-	var _RefFiles = [];
 	var x = Math.random();
 	var rng=x*parseFloat(Math.pow(10,(x.toString().length-2)));
 	var postRef = storageRef.child(_PostTitle+"-"+rng);
-	var doneLoading = false;
-	var currentFile = 0;
-	function recursiveLoad(){
-		if(currentFile < _Files.length){
-			var _FileName=currentFile+"."+(_Files[currentFile].type.split('/')[1]);
-			_FileReader.readAsDataURL(_Files[currentFile]);
-			while(_FileReader.readyState === 2){
-				_RefFiles.push({
-					name:_FileName,
-					DataURL:_FileReader.result
-				});
-				currentFile++;
-			}
-		}else{
-			doneLoading = true
-			_FileReader.removeEventListener('loadend',recursiveLoad);
-		}
+	for(var i = 0; i < _Files.length; i++){
+		var _FileName=i+"."+(_Files[i].type.split('/')[1]);
+		var tempRef = postRef.child(_FileName);
+		tempRef.put(_Files[i]).then(function(snapshot){
+			console.log("Uploaded a blob or file!");
+		});
 	}
-	_FileReader.addEventListener('loadend',recursiveLoad);
-	recursiveLoad();
-	while(doneLoading){
-		for(var i = 0; i < _Files.length; i++){
-			var _FileName=i+"."+(_Files[i].type.split('/')[1]);
-			var tempRef = postRef.child(_FileName);
-			tempRef.put(_Files[i]).then(function(snapshot){
-				console.log("Uploaded a blob or file!");
-			});
-		}
-		var textRef = postRef.child('blogText.txt');
-		textRef.putString(_PostText).then(function(snapshot){
-			console.log("Uploaded post text!");
-		});
-		var titleRef = postRef.child('blogTitle.txt');
-		titleRef.putString(_PostTitle).then(function(snapshot){
-			console.log("Uploaded post title!");
-		});
-		var postDB = firebase.database().ref('Posts');
-		var DB_Post = postDB.child(_PostTitle+'-'+rng);
-		DB_Post.set({
-			titleRef: _PostTitle+'-'+rng,
-			title: _PostTitle,
-			files: _RefFiles,
-			text: _PostText
-		}).then(function(snapshot){
-			console.log('Updated DB with data');
-		});
-		doneLoading = false;
-	}
+	var textRef = postRef.child('blogText.txt');
+	textRef.putString(_PostText).then(function(snapshot){
+		console.log("Uploaded post text!");
+	});
+	var titleRef = postRef.child('blogTitle.txt');
+	titleRef.putString(_PostTitle).then(function(snapshot){
+		console.log("Uploaded post title!");
+	});
+	var postDB = firebase.database().ref('Posts');
+	var DB_Post = postDB.child(_PostTitle+'-'+rng);
+	DB_Post.set({
+		titleRef: _PostTitle+'-'+rng,
+		title: _PostTitle,
+		files: _RefFiles,
+		text: _PostText
+	}).then(function(snapshot){
+		console.log('Updated DB with data');
+	});
 }
 
 function createPostList(){
