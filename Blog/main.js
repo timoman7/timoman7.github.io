@@ -147,5 +147,7 @@ function createPostList(){
 	}
 }
 
+window.addEventListener('load',createPostList);
+
 $(".Login").on("click",signInWithGoogle);
 $(".Logout").on("click",signOut);
