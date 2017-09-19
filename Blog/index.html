@@ -50,7 +50,7 @@
     </div>
   </nav>
   <form onsubmit="submitBlog">
-    <input type="file" name="blogFiles" id="inputUpload" onloadeddata="uploadImages(this.files)" multiple>
+    <input type="file" name="blogFiles" id="inputUpload" onchange="uploadImages(this.files)" multiple>
     <input type="textbox" name="blogText" id="blogText" placeholder="Text for the post"></input>
     <button><span class="glyphicon glyphicon-upload"></span>Upload <span id="fileCount">0</span> files</button>
   </form>
