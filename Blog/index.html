@@ -33,7 +33,7 @@
       
     });
   </script>
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Bane's Blog</a>
@@ -49,6 +49,11 @@
       </ul>
     </div>
   </nav>
+  <form onsubmit="submitBlog">
+    <input type="file" name="blogFiles" id="inputUpload" onloadeddata="uploadImages(this.files)" multiple>
+    <input type="textbox" name="blogText" id="blogText" placeholder=""></input>
+    <button><span class="glyphicon glyphicon-upload"></span>Upload <span id="fileCount">0</span> files</button>
+  </form>
   <script src="main.js"></script>
 </body>
 </html>
