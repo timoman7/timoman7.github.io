@@ -80,36 +80,54 @@ function submitBlog(){
 	var x = Math.random();
 	var rng=x*parseFloat(Math.pow(10,(x.toString().length-2)));
 	var postRef = storageRef.child(_PostTitle+"-"+rng);
-	for(var i = 0; i < _Files.length; i++){
-		var _FileName=i+"."+(_Files[i].type.split('/')[1]);
-		var tempRef = postRef.child(_FileName);
-		_FileReader.readAsDataURL(_Files[i]);
-		_RefFiles.push({
-			name:_FileName,
-			DataURL:_FileReader.result
-		});
-		tempRef.put(_Files[i]).then(function(snapshot){
-			console.log("Uploaded a blob or file!");
-		});
+	var doneLoading = false;
+	var currentFile = 0;
+	function recursiveLoad(){
+		if(currentFile < _Files.length){
+			var _FileName=currentFile+"."+(_Files[currentFile].type.split('/')[1]);
+			_FileReader.readAsDataURL(_Files[currentFile]);
+			while(_FileReader.readyState === 2){
+				_RefFiles.push({
+					name:_FileName,
+					DataURL:_FileReader.result
+				});
+				currentFile++;
+			}
+		}else{
+			doneLoading = true
+			_FileReader.removeEventListener('loadend',recursiveLoad);
+		}
 	}
-	var textRef = postRef.child('blogText.txt');
-	textRef.putString(_PostText).then(function(snapshot){
-		console.log("Uploaded post text!");
-	});
-	var titleRef = postRef.child('blogTitle.txt');
-	titleRef.putString(_PostTitle).then(function(snapshot){
-		console.log("Uploaded post title!");
-	});
-	var postDB = firebase.database().ref('Posts');
-	var DB_Post = postDB.child(_PostTitle+'-'+rng);
-	DB_Post.set({
-		titleRef: _PostTitle+'-'+rng,
-		title: _PostTitle,
-		files: _RefFiles,
-		text: _PostText
-	}).then(function(snapshot){
-		console.log('Updated DB with data');
-	});
+	_FileReader.addEventListener('loadend',recursiveLoad);
+	recursiveLoad();
+	while(doneLoading){
+		for(var i = 0; i < _Files.length; i++){
+			var _FileName=i+"."+(_Files[i].type.split('/')[1]);
+			var tempRef = postRef.child(_FileName);
+			tempRef.put(_Files[i]).then(function(snapshot){
+				console.log("Uploaded a blob or file!");
+			});
+		}
+		var textRef = postRef.child('blogText.txt');
+		textRef.putString(_PostText).then(function(snapshot){
+			console.log("Uploaded post text!");
+		});
+		var titleRef = postRef.child('blogTitle.txt');
+		titleRef.putString(_PostTitle).then(function(snapshot){
+			console.log("Uploaded post title!");
+		});
+		var postDB = firebase.database().ref('Posts');
+		var DB_Post = postDB.child(_PostTitle+'-'+rng);
+		DB_Post.set({
+			titleRef: _PostTitle+'-'+rng,
+			title: _PostTitle,
+			files: _RefFiles,
+			text: _PostText
+		}).then(function(snapshot){
+			console.log('Updated DB with data');
+		});
+		doneLoading = false;
+	}
 }
 
 function createPostList(){
