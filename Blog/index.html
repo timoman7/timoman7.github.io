@@ -49,7 +49,7 @@
       </ul>
     </div>
   </nav>
-  <form id="blogData" action="#">
+  <form id="blogData" action="javascript:void(0);">
     <input type="file" name="blogFiles" id="inputUpload" onchange="uploadImages(this.files)" multiple>
     <input type="textbox" name="blogText" id="blogText" placeholder="Text for the post"></input>
     <button onclick="submitBlog(document.getElementById('blogData'))"><span class="glyphicon glyphicon-upload"></span>Upload <span id="fileCount">0</span> files</button>
