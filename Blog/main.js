@@ -127,27 +127,24 @@ function createPostList(){
 		Posts = data.val();
 	});
 	for(var post in Posts){
+		console.log(post);
 		var btn = document.createElement('button');
 		btn.name='postId';
 		btn.value=post.titleRef;
 		var tmpPostTitle = document.createElement('h3');
-		tmpPostTitle.innerHTML = (function(){
-			if(post.title.length > 125){
-				return post.title.substring(0,125) + "...";
-			}else{
-				return post.title;
-			}
-		})();
+		if(post.title.length > 125){
+			tmpPostTitle.innerHTML = post.title.substring(0,125) + "...";
+		}else{
+			tmpPostTitle.innerHTML = post.title;
+		}
 		var tmpPostImage = document.createElement('img');
 		tmpPostImage.src = post.files[0].DataURL;
 		var tmpPostText = document.createElement('p');
-		tmpPostText.innerHTML = (function(){
-			if(post.text.length > 125){
-				return post.text.substring(0,125) + "...";
-			}else{
-				return post.text;
-			}
-		})();
+		if(post.text.length > 125){
+			tmpPostText.innerHTML = post.text.substring(0,125) + "...";
+		}else{
+			tmpPostText.innerHTML = post.text;
+		}
 		btn.appendChild(tmpPostTitle);
 		btn.appendChild(tmpPostImage);
 		btn.appendChild(tmpPostText);
