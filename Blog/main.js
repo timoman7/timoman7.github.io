@@ -84,12 +84,12 @@ function submitBlog(){
 			console.log("Uploaded a blob or file!");
 		});
 	}
-	var textRef = postRef.child('blogText');
-	textRef.putString(_PostText,{contentType:"text/plain"}).then(function(snapshot){
+	var textRef = postRef.child('blogText.txt');
+	textRef.putString(_PostText).then(function(snapshot){
 		console.log("Uploaded post text!");
 	});
-	var titleRef = postRef.child('blogTitle');
-	titleRef.putString(_PostTitle,{contentType:"text/plain"}).then(function(snapshot){
+	var titleRef = postRef.child('blogTitle.txt');
+	titleRef.putString(_PostTitle).then(function(snapshot){
 		console.log("Uploaded post title!");
 	});
 }
