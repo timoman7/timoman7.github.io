@@ -58,5 +58,18 @@ function signOut(){
 		alert("Somehow you screwed up logging out.");
 	});
 }
+function uploadImages(_FileList){
+	var blogPreview = document.getElementById("preview");
+	blogPreview.innerHTML="";
+	for(var i = 0; i < _FileList.length; i++){
+		var _File = _FileList[i];
+		var tempImage = document.createElement("img");
+		tempImage.src = window.URL.createObjectURL(_File);
+		blogPreview.appendChild(tempImage);
+	}
+}
+function submitBlog(){
+	console.log(arguments);
+}
 $(".Login").on("click",signInWithGoogle);
 $(".Logout").on("click",signOut);
