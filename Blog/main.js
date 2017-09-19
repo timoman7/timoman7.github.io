@@ -1,5 +1,5 @@
 var userDB = firebase.database().ref("users");
-var currentUser;
+var currentUser = firebase.auth().currentUser;
 setInterval(function(){
 	if(currentUser){
 		$(".Login").class = "Logout";
