@@ -111,5 +111,41 @@ function submitBlog(){
 		console.log('Updated DB with data');
 	});
 }
+
+function createPostList(){
+	var postDB = firebase.database().ref('Posts');
+	var Posts;
+	postDB.on('value',function(data){
+		Posts = data.val();
+	});
+	for(var post in Posts){
+		var btn = document.createElement('button');
+		btn.name='postId';
+		btn.value=post.titleRef;
+		var tmpPostTitle = document.createElement('h3');
+		tmpPostTitle.innerHTML = (function(){
+			if(post.title.length > 125){
+				return post.title.substring(0,125) + "...";
+			}else{
+				return post.title;
+			}
+		})();
+		var tmpPostImage = document.createElement('img');
+		tmpPostImage.src = post.files[0].DataURL;
+		var tmpPostText = document.createElement('p');
+		tmpPostText.innerHTML = (function(){
+			if(post.text.length > 125){
+				return post.text.substring(0,125) + "...";
+			}else{
+				return post.text;
+			}
+		})();
+		btn.appendChild(tmpPostTitle);
+		btn.appendChild(tmpPostImage);
+		btn.appendChild(tmpPostText);
+		document.getElementById('PostList').appendChild(btn);
+	}
+}
+
 $(".Login").on("click",signInWithGoogle);
 $(".Logout").on("click",signOut);
