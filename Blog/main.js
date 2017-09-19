@@ -70,7 +70,28 @@ function uploadImages(_FileList){
 	document.getElementById("fileCount").innerHTML = _FileList.length;
 }
 function submitBlog(){
-	console.log(arguments);
+	var storageRef = firebase.storage().ref("images");
+	var fo = arguments[0];
+	var _Files = fo.elements.blogFiles.files;
+	var _PostText = fo.elements.blogText.value;
+	var _PostTitle = fo.elements.blogTitle.value;
+	var x = Math.random();
+	var rng=x*parseFloat(Math.pow(10,(x.toString().length-2)));
+	var postRef = storageRef.child(_PostTitle+"-"+rng);
+	for(var i = 0; i < _Files.length; i++){
+		var tempRef = postRef.child(i+"."+(_Files[i].type.split('/')[1]));
+		tempRef.put(_Files[i]).then(function(snapshot){
+			console.log("Uploaded a blob or file!");
+		});
+	}
+	var textRef = postRef.child('blogText');
+	textRef.putString(_PostText).then(function(snapshot){
+		console.log("Uploaded post text!");
+	});
+	var titleRef = postRef.child('blogTitle');
+	titleRef.putString(_PostTitle).then(function(snapshot){
+		console.log("Uploaded post title!");
+	});
 }
 $(".Login").on("click",signInWithGoogle);
 $(".Logout").on("click",signOut);
