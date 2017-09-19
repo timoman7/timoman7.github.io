@@ -71,15 +71,23 @@ function uploadImages(_FileList){
 }
 function submitBlog(){
 	var storageRef = firebase.storage().ref("images");
+	var _FileReader = new FileReader;
 	var fo = arguments[0];
 	var _Files = fo.elements.blogFiles.files;
 	var _PostText = fo.elements.blogText.value;
 	var _PostTitle = fo.elements.blogTitle.value;
+	var _RefFiles = [];
 	var x = Math.random();
 	var rng=x*parseFloat(Math.pow(10,(x.toString().length-2)));
 	var postRef = storageRef.child(_PostTitle+"-"+rng);
 	for(var i = 0; i < _Files.length; i++){
-		var tempRef = postRef.child(i+"."+(_Files[i].type.split('/')[1]));
+		var _FileName=i+"."+(_Files[i].type.split('/')[1]);
+		var tempRef = postRef.child(_FileName);
+		_FileReader.readAsDataURL(_Files[i]);
+		_RefFiles.push({
+			name:_FileName,
+			DataURL:_FileReader.result
+		});
 		tempRef.put(_Files[i]).then(function(snapshot){
 			console.log("Uploaded a blob or file!");
 		});
@@ -91,6 +99,16 @@ function submitBlog(){
 	var titleRef = postRef.child('blogTitle.txt');
 	titleRef.putString(_PostTitle).then(function(snapshot){
 		console.log("Uploaded post title!");
+	});
+	var postDB = firebase.database().ref('Posts');
+	var DB_Post = postDB.child(_PostTitle+'-'+rng);
+	DB_Post.set({
+		titleRef: _PostTitle+'-'+rng,
+		title: _PostTitle,
+		files: _RefFiles,
+		text: _PostText
+	}).then(function(snapshot){
+		console.log('Updated DB with data');
 	});
 }
 $(".Login").on("click",signInWithGoogle);
