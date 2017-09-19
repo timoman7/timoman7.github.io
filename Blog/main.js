@@ -67,6 +67,7 @@ function uploadImages(_FileList){
 		tempImage.src = window.URL.createObjectURL(_File);
 		blogPreview.appendChild(tempImage);
 	}
+	document.getElementById("fileCount").innerHTML = _FileList.length;
 }
 function submitBlog(){
 	console.log(arguments);
