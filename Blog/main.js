@@ -12,7 +12,7 @@ HTMLInputElement.prototype.clear = function(){
 				this.value = 0;
 			break;
 			case "string":
-						this.value = "";
+				this.value = "";
 			break;
 		    }
 		break;
@@ -23,7 +23,7 @@ HTMLFormElement.prototype.clear = function(){
 	for(var childIndex = 0; childIndex < childrenCount; childIndex++){
 		var child = this.children[childIndex];
 		switch(child.tagName){
-            case "INPUT":
+            		case "INPUT":
 				child.clear();
 			break;
 		}
@@ -141,7 +141,8 @@ function submitBlog(){
 	var _PostTitle = fo.elements.blogTitle.value;
 	var x = Math.random();
 	var rng=x*parseFloat(Math.pow(10,(x.toString().length-2)));
-	var postRef = storageRef.child(_PostTitle+"-"+rng);
+	var _PostRef = (_PostTitle.replace(/ /g,"_"))+"-"+rng;
+	var postRef = storageRef.child(_PostRef);
 	for(var i = 0; i < _Files.length; i++){
 		var _FileName=i+"."+(_Files[i].type.split('/')[1]);
 		var tempRef = postRef.child(_FileName);
@@ -160,7 +161,7 @@ function submitBlog(){
 	var postDB = firebase.database().ref('Posts');
 	var DB_Post = postDB.child(_PostTitle+'-'+rng);
 	DB_Post.set({
-		titleRef: _PostTitle+'-'+rng,
+		titleRef: _PostRef,
 		title: _PostTitle,
 		files: _RefFiles,
 		text: _PostText
