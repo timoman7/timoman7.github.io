@@ -1,5 +1,42 @@
+/**
+	Extending certain DOMElements
+**/
+HTMLInputElement.prototype.clear = function(){
+	switch(this.type){
+		case "file":
+			this.files=$('<input type="file">')[0].files;
+		break;
+		default:
+		    switch(typeof(this.value)){
+			case "number":
+				this.value = 0;
+			break;
+			case "string":
+						this.value = "";
+			break;
+		    }
+		break;
+ 	}
+};
+HTMLFormElement.prototype.clear = function(){
+	var childrenCount = this.children.length;
+	for(var childIndex = 0; childIndex < childrenCount; childIndex++){
+		var child = this.children[childIndex];
+		switch(child.tagName){
+            case "INPUT":
+				child.clear();
+			break;
+		}
+	}
+};
+
+
+/**
+Checking the user, and login state
+**/
 var userDB = firebase.database().ref("users");
 var currentUser = firebase.auth().currentUser;
+
 setInterval(function(){
 	if(currentUser){
 		$(".Login").class = "Logout";
@@ -12,6 +49,10 @@ setInterval(function(){
 	}
 },100);
 
+
+/**
+	Setting up firebase authentication, database, and storage
+**/
 firebase.auth().getRedirectResult().then(function(result){
 	var user = result.user;
 	var credential = result.credential;
@@ -58,6 +99,11 @@ function signOut(){
 		alert("Somehow you screwed up logging out.");
 	});
 }
+
+
+/**
+Firebase storage and database for submitting and previewing blog posts
+**/
 var _RefFiles = [];
 function uploadImages(_FileList){
 	var blogPreview = document.getElementById("preview");
@@ -158,6 +204,10 @@ function createPostList(){
 	});
 }
 
+
+/**
+Misc stuff
+**/
 document.addEventListener('load',createPostList);
 
 $(".Login").on("click",signInWithGoogle);
