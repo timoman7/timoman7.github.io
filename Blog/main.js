@@ -125,37 +125,37 @@ function createPostList(){
 	var Posts;
 	postDB.on('value',function(data){
 		Posts = data.val();
+		for(var post_id in Posts){
+			var post = Posts[post_id];
+			console.log(post);
+			var btn = document.createElement('button');
+			btn.name='postId';
+			btn.value=post.titleRef;
+			var tmpPostTitle = document.createElement('h3');
+			if(post.title.length > 125){
+				tmpPostTitle.innerHTML = post.title.substring(0,125) + "...";
+			}else{
+				tmpPostTitle.innerHTML = post.title;
+			}
+			var tmpPostImage = document.createElement('img');
+			tmpPostImage.src = post.files[0].DataURL;
+			var tmpPostText = document.createElement('p');
+			if(post.text.length > 125){
+				tmpPostText.innerHTML = post.text.substring(0,125) + "...";
+			}else{
+				tmpPostText.innerHTML = post.text;
+			}
+			btn.style="border: none; background-color: #555555; cursor: pointer; text-align: center; ";
+			btn.appendChild(tmpPostTitle);
+			btn.appendChild(tmpPostImage);
+			btn.appendChild(tmpPostText);
+			var postLI = document.createElement('li');
+			postLI.id="post-"+post_id;
+			postLI.style="text-align: center; list-style-type: none; ";
+			postLI.appendChild(btn);
+			document.getElementById('PostUL').appendChild(postLI);
+		}
 	});
-	for(var post_id in Posts){
-		var post = Posts[post_id];
-		console.log(post);
-		var btn = document.createElement('button');
-		btn.name='postId';
-		btn.value=post.titleRef;
-		var tmpPostTitle = document.createElement('h3');
-		if(post.title.length > 125){
-			tmpPostTitle.innerHTML = post.title.substring(0,125) + "...";
-		}else{
-			tmpPostTitle.innerHTML = post.title;
-		}
-		var tmpPostImage = document.createElement('img');
-		tmpPostImage.src = post.files[0].DataURL;
-		var tmpPostText = document.createElement('p');
-		if(post.text.length > 125){
-			tmpPostText.innerHTML = post.text.substring(0,125) + "...";
-		}else{
-			tmpPostText.innerHTML = post.text;
-		}
-		btn.style="border: none; background-color: #555555; cursor: pointer; text-align: center; ";
-		btn.appendChild(tmpPostTitle);
-		btn.appendChild(tmpPostImage);
-		btn.appendChild(tmpPostText);
-		var postLI = document.createElement('li');
-		postLI.id="post-"+post_id;
-		postLI.style="text-align: center; list-style-type: none; ";
-		postLI.appendChild(btn);
-		document.getElementById('PostUL').appendChild(postLI);
-	}
 }
 
 document.addEventListener('load',createPostList);
