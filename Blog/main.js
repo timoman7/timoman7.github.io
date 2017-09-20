@@ -149,7 +149,10 @@ function createPostList(){
 		btn.appendChild(tmpPostTitle);
 		btn.appendChild(tmpPostImage);
 		btn.appendChild(tmpPostText);
-		document.getElementById('PostList').appendChild(btn);
+		var postLI = document.createElement('li');
+		postLI.id="post-"+post_id;
+		postLI.appendChild(btn);
+		document.getElementById('PostUL').appendChild(postLI);
 	}
 }
 
