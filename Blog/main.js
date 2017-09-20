@@ -29,6 +29,9 @@ HTMLFormElement.prototype.clear = function(){
 		}
 	}
 };
+HTMLULListElement.prototype.clear = function(){
+	this.innerHTML = '';
+};
 
 
 /**
@@ -164,9 +167,12 @@ function submitBlog(){
 	}).then(function(snapshot){
 		console.log('Updated DB with data');
 	});
+	fo.clear();
+	createPostList();
 }
 
 function createPostList(){
+	document.getElementById("PostUL").clear();
 	console.log("Creating post list");
 	var postDB = firebase.database().ref('Posts');
 	var Posts;
@@ -209,7 +215,10 @@ function createPostList(){
 /**
 Misc stuff
 **/
-document.addEventListener('load',createPostList);
+document.addEventListener('load',function(){
+	createPostList();
+	createPostList();
+});
 
 $(".Login").on("click",signInWithGoogle);
 $(".Logout").on("click",signOut);
