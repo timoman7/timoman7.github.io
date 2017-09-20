@@ -126,7 +126,8 @@ function createPostList(){
 	postDB.on('value',function(data){
 		Posts = data.val();
 	});
-	for(var post in Posts){
+	for(var post_id in Posts){
+		var post = Posts[post_id];
 		console.log(post);
 		var btn = document.createElement('button');
 		btn.name='postId';
