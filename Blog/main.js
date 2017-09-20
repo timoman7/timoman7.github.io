@@ -167,6 +167,7 @@ function submitBlog(){
 }
 
 function createPostList(){
+	console.log("Creating post list");
 	var postDB = firebase.database().ref('Posts');
 	var Posts;
 	postDB.on('value',function(data){
