@@ -29,7 +29,7 @@ HTMLFormElement.prototype.clear = function(){
 		}
 	}
 };
-HTMLULListElement.prototype.clear = function(){
+HTMLUListElement.prototype.clear = function(){
 	this.innerHTML = '';
 };
 
