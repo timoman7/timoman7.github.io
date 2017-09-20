@@ -146,17 +146,19 @@ function createPostList(){
 		}else{
 			tmpPostText.innerHTML = post.text;
 		}
+		btn.style="border: none; background-color: #555555; cursor: pointer; text-align: center; ";
 		btn.appendChild(tmpPostTitle);
 		btn.appendChild(tmpPostImage);
 		btn.appendChild(tmpPostText);
 		var postLI = document.createElement('li');
 		postLI.id="post-"+post_id;
+		postLI.style="text-align: center; list-style-type: none; ";
 		postLI.appendChild(btn);
 		document.getElementById('PostUL').appendChild(postLI);
 	}
 }
 
-window.addEventListener('load',createPostList);
+document.addEventListener('load',createPostList);
 
 $(".Login").on("click",signInWithGoogle);
 $(".Logout").on("click",signOut);
