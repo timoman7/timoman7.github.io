@@ -218,5 +218,6 @@ Misc stuff
 **/
 window.onload=createPostList;
 
+
 $(".Login").on("click",signInWithGoogle);
 $(".Logout").on("click",signOut);
