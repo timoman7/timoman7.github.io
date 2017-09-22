@@ -216,10 +216,7 @@ function createPostList(){
 /**
 Misc stuff
 **/
-document.addEventListener('load',function(){
-	createPostList();
-	createPostList();
-});
+window.onload=createPostList;
 
 $(".Login").on("click",signInWithGoogle);
 $(".Logout").on("click",signOut);
