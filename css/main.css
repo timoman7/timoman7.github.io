@@ -1,6 +1,13 @@
 #pageHead{
   
 }
+
+#canvasBG{
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+}
+
 .project-preview-container{
   right: 0px;
   top: 60px;
